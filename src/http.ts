@@ -17,7 +17,8 @@ const app = createMcpExpressApp({ host: config.httpHost, allowedHosts });
 // One LOD client (and cache) shared across requests; a fresh MCP server per request (stateless mode).
 const lod = new LodClient();
 
-app.post("/mcp", async (req: Request, res: Response) => {
+// Serve MCP on /mcp and on / so the connector works with or without the /mcp suffix.
+app.post(["/mcp", "/"], async (req: Request, res: Response) => {
   const server = createServer({ lod });
   const transport = new StreamableHTTPServerTransport({ sessionIdGenerator: undefined, enableJsonResponse: true });
   res.on("close", () => {
@@ -38,7 +39,11 @@ app.post("/mcp", async (req: Request, res: Response) => {
 const methodNotAllowed = (_req: Request, res: Response) =>
   res.status(405).json({ jsonrpc: "2.0", error: { code: -32000, message: "Method not allowed (stateless server: use POST)." }, id: null });
 app.get("/mcp", methodNotAllowed);
-app.delete("/mcp", methodNotAllowed);
+app.delete(["/mcp", "/"], methodNotAllowed);
+app.get("/", (req: Request, res: Response) => {
+  if ((req.headers.accept ?? "").includes("text/event-stream")) return methodNotAllowed(req, res);
+  res.type("text/plain").send(`ZLS – Lëtzebuergesch MCP server v${VERSION}\nMCP endpoint: POST /mcp\nHealth: /healthz\n`);
+});
 
 app.get("/healthz", (_req: Request, res: Response) => res.json({ ok: true, version: VERSION }));
 
