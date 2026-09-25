@@ -11,6 +11,9 @@ Luxembourgish language resources of the **Zenter fir d'Lëtzebuerger Sprooch (ZL
 | `lb_spellcheck` | Spelling with suggestions + n-rule (Eifeler Regel) hints; handles *d'*/*z'* elisions and hyphenated compounds | spellchecker.lu Hunspell dictionary (local) |
 | `lb_n_rule_check` | Eifeler Regel only, with confidence levels, optionally confirmed against LOD's `nRuleForm` | heuristic + LOD |
 | `corpus_search` | Real, professionally translated usage: search LB/FR/DE/EN, get the aligned segments | Méisproochegen Iwwersetzungskorpus (local) |
+| `corpus_similar_sentences` | Closest professional translations for a source sentence, to reuse authentic phrasing when translating into LB | corpus (local, BM25) |
+| `lb_check_draft` | One-stop check of an AI draft: spelling, Germanisms (*Wetter → Wieder*), hunn/sinn, article–noun gender, dative after prepositions, n-rule | Hunspell + LOD + ZLS lists |
+| `lb_writing_guide` | ZLS writing rules the AI reads before writing Luxembourgish | `resources/grammar-notes.md` |
 
 Also: a `zls://about` resource (sources and licences) and a `proofread_luxembourgish` prompt.
 
@@ -77,6 +80,13 @@ HOST=0.0.0.0 PORT=8080 ZLS_ALLOWED_HOSTS=mcp.example.lu npm run start:http
 - “Proofread this: *Den Mann drénkt Kaffi a Uebst.*”
 - “How has *logement abordable* been translated into Luxembourgish?”
 
+## Editing the language rules (no coding needed)
+
+Two plain files in `resources/` steer the AI and the checker. Edit them directly on GitHub (pencil icon → Commit), and the server picks them up on the next deploy:
+
+- `resources/grammar-notes.md`: the writing rules shown to the AI before it writes Luxembourgish.
+- `resources/germanisms.tsv`: German word → Luxembourgish correction, one per line, **TAB**-separated.
+
 ## Project layout
 
 ```
@@ -85,10 +95,12 @@ src/
   stdio.ts, http.ts    transports
   lod/                 LOD client, normaliser, markdown formatting
   spell/               Hunspell wrapper, tokenizer, n-rule heuristic
+  grammar/             LOD-backed grammar checks, Germanisms, editable resources loader
   corpus/              TMX/JSONL/ZIP loader, search
   tools/               MCP tool definitions
   scripts/smoke.ts     live smoke test
 test/                  vitest suites + fixtures
+resources/             grammar-notes.md, germanisms.tsv (edited by ZLS)
 ```
 
 ## Privacy Policy

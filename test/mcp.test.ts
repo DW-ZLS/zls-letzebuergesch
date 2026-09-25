@@ -25,12 +25,13 @@ describe("MCP protocol", () => {
   it("lists the tools with read-only annotations", async () => {
     const { tools } = await client.listTools();
     expect(tools.map((t) => t.name).sort()).toEqual(
-      ["corpus_search", "lb_n_rule_check", "lb_spellcheck", "lod_get_entry", "lod_get_inflection", "lod_search"].sort(),
+      ["corpus_search", "corpus_similar_sentences", "lb_check_draft", "lb_n_rule_check", "lb_spellcheck", "lb_writing_guide", "lod_get_entry", "lod_get_inflection", "lod_search"].sort(),
     );
     for (const t of tools) {
       expect(t.annotations?.readOnlyHint).toBe(true);
       expect(t.annotations?.destructiveHint).toBe(false);
       expect(t.description!.length).toBeGreaterThan(80);
+      expect(t.title).toBeTruthy();
     }
   });
 
@@ -82,6 +83,6 @@ describe("MCP protocol", () => {
     const res = await client.readResource({ uri: "zls://about" });
     expect((res.contents[0] as any).text).toContain("CC0");
     const p = await client.getPrompt({ name: "proofread_luxembourgish", arguments: { text: "Moien" } });
-    expect((p.messages[0].content as any).text).toContain("lb_spellcheck");
+    expect((p.messages[0].content as any).text).toContain("lb_check_draft");
   });
 });

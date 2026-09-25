@@ -1,0 +1,167 @@
+# German word (as an AI might wrongly write it)	Luxembourgish	Note
+# DRAFT for review by ZLS. One entry per line, TAB-separated. Lines starting with # are ignored.
+# Used by lb_check_draft/lb_spellcheck when a word is unknown: this list is checked first, then LOD's German→Luxembourgish search.
+sehr	ganz, immens, vill	depends on context
+aber	awer
+auch	och
+nicht	net
+nichts	näischt
+schon	schonn
+noch	nach	German "nach" = Luxembourgish "no"
+nach	no	German "noch" = Luxembourgish "nach"
+immer	ëmmer
+jetzt	elo
+heute	haut
+gestern	gëschter
+morgen	muer
+vielleicht	vläicht
+natürlich	natierlech
+wirklich	wierklech
+wichtig	wichteg
+richtig	richteg
+schnell	séier
+langsam	lues
+klein	kleng
+groß	grouss
+gross	grouss
+gut	gutt
+viel	vill
+viele	vill
+wenig	wéineg
+etwas	eppes
+jemand	een, iergendeen
+niemand	keen
+nie	ni
+oft	dacks
+manchmal	heiansdo
+wieder	erëm, nees	Luxembourgish "Wieder" = weather
+Wetter	Wieder
+Arbeit	Aarbecht
+arbeiten	schaffen
+Stadt	Stad
+Kind	Kand
+Kinder	Kanner
+Frau	Fra
+Frauen	Fraen
+Mädchen	Meedchen
+Junge	Jong
+Leute	Leit
+Zeit	Zäit
+Schule	Schoul
+Straße	Strooss
+Strasse	Strooss
+Geld	Suen
+Fahrrad	Vëlo
+Bahnhof	Gare
+Krankenhaus	Spidol
+Bürgersteig	Trottoir
+Kartoffel	Gromper
+Kartoffeln	Gromperen
+Brot	Brout
+Fleisch	Fleesch
+Wasser	Waasser
+Kaffee	Kaffi
+Bier	Béier
+Wein	Wäin
+Freund	Frënd
+Freunde	Frënn
+Mutter	Mamm
+Vater	Papp
+Hund	Hond
+Katze	Kaz
+Woche	Woch
+Jahr	Joer
+Tag	Dag
+Nacht	Nuecht
+Uhr	Auer
+Wohnung	Wunneng
+Sonne	Sonn
+Regen	Reen
+kalt	kal
+warm	waarm
+schön	schéin
+trinken	drénken
+getrunken	gedronk
+essen	iessen
+gegessen	giess
+gehen	goen
+gegangen	gaangen	auxiliary: sinn
+gekommen	komm	auxiliary: sinn
+sehen	gesinn
+gesehen	gesinn
+sagen	soen
+gesagt	gesot
+gemacht	gemaach, gemaacht
+gehabt	gehat
+sein	sinn
+gewesen	gewiescht
+werden	ginn
+geworden	ginn	passive perfect: "ass … ginn"
+wissen	wëssen
+gewusst	gewosst
+gedacht	geduecht
+bringen	bréngen
+gebracht	bruecht
+finden	fannen
+gefunden	fonnt
+bleiben	bleiwen
+geblieben	bliwwen	auxiliary: sinn
+schreiben	schreiwen
+geschrieben	geschriwwen
+lesen	liesen
+gelesen	gelies
+kaufen	kafen
+gekauft	kaf
+fahren	fueren
+gefahren	gefuer	auxiliary: sinn (intransitive)
+schlafen	schlofen
+geschlafen	geschlof
+sprechen	schwätzen
+gesprochen	geschwat
+heißen	heeschen
+wohnen	wunnen
+danke	merci
+bitte	wannechgelift	polite request
+tschüss	äddi
+ja	jo
+nein	nee
+und	an, a	n-rule
+weil	well
+dass	datt
+wenn	wann
+als	wéi	comparison ("méi grouss wéi") and "when" in the past ("wéi ech kleng war")
+wie	wéi
+wo	wou
+warum	firwat
+mit	mat
+von	vun
+über	iwwer
+unter	ënner
+vor	vir, virun
+hinter	hannert
+neben	nieft
+zwischen	tëscht, tëschent
+ohne	ouni
+für	fir
+gegen	géint
+seit	zënter
+die	d', déi	article: d' (fem./neut./plural)
+das	d', dat	article: d' ; demonstrative/conjunction: dat
+der	de(n), der	check gender in LOD
+ein	en, e	n-rule
+eine	eng
+einen	en, e
+einem	engem
+einer	enger
+ich	ech
+er	hien
+es	et
+wir	mir
+ihr	dir
+mein	mäin
+meine	meng
+kein	keen
+keine	keng
+hier	hei
+dort	do
+es gibt	et gëtt

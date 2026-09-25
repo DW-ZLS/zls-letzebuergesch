@@ -72,7 +72,21 @@ export function registerLodTools(server: McpServer, lod: LodClient) {
       if (format === "json") {
         const { tables, ...rest } = entry;
         void tables;
-        return json({ entry: rest, resolvedFrom: via?.matchedForms, alternatives: alternatives.map((a) => ({ id: a.id, lemma: a.lemma, pos: a.posLabel })) });
+        const trimmed = {
+          ...rest,
+          sections: rest.sections.map((s) => ({
+            ...s,
+            units: s.units.map((u) => ({
+              ...u,
+              meanings: u.meanings.map((m) => ({
+                ...m,
+                translations: Object.fromEntries(Object.entries(m.translations).filter(([l]) => (languages as string[]).includes(l))),
+                examples: include_examples ? m.examples.slice(0, max_examples) : [],
+              })),
+            })),
+          })),
+        };
+        return json({ entry: trimmed, resolvedFrom: via?.matchedForms, alternatives: alternatives.map((a) => ({ id: a.id, lemma: a.lemma, pos: a.posLabel })) });
       }
       let out = formatEntry(entry, { languages, includeExamples: include_examples, maxExamples: max_examples });
       if (via && via.lemma.toLowerCase() !== id_or_word.trim().toLowerCase()) {

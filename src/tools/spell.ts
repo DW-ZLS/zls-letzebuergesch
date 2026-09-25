@@ -1,6 +1,7 @@
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
 import type { LodClient } from "../lod/client.js";
+import { germanisms } from "../grammar/resources.js";
 import { checkNRule, type NRuleIssue } from "../spell/nrule.js";
 import { dictionarySource, getSpeller, isCorrect, spellcheck, type SpellIssue } from "../spell/speller.js";
 import { json, safe, text } from "./util.js";
@@ -97,6 +98,13 @@ export function registerSpellTools(server: McpServer, lod: LodClient) {
         skipAcronyms: true,
         skipCapitalized: skip_capitalized,
       });
+      // German words: put the curated Luxembourgish equivalent first
+      const gl = germanisms();
+      for (const i of issues) {
+        const m = /^([dDzZ]['’])?(.+)$/.exec(i.word)!;
+        const hit = gl.get(m[2].toLowerCase());
+        if (hit) i.suggestions = [...hit.lb.split(/,\s*/).map((x) => (m[1] ?? "") + x), ...i.suggestions.filter((x) => !hit.lb.includes(x))].slice(0, Math.max(1, max_suggestions));
+      }
       let nrule: NRuleIssue[] = [];
       if (check_n_rule) {
         const sp = await getSpeller();

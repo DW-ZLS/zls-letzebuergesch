@@ -38,3 +38,17 @@ What I built, what I couldn't verify from my build environment, and what needs a
 - **Remote connector (Claude Connectors Directory).** Host `dist/http.js` behind HTTPS, e.g. on ZLS/CTIE infrastructure; stateless mode scales horizontally. Submission goes through the claude.ai admin portal, which needs a **Team or Enterprise** organization. You'll also need a privacy-policy URL, a documentation URL, a support contact and an icon. Auth would be "none" (public read-only data). Every tool already has a `title` and `readOnlyHint`, which the directory requires.
 - **Desktop extension (MCPB).** `manifest.json` is ready and builds with `npx @anthropic-ai/mcpb pack`. It can be submitted through the desktop-extension form without a Team plan. It needs the privacy-policy URL in `manifest.json` (currently a TODO placeholder).
 - Either way: fill in the TODOs in `PRIVACY.md`, publish it on zls.lu, and put the source in a public repo (e.g. github.com/ZLSGeneral).
+
+## 5. v0.2: grammar checks (added after the first live test)
+
+- **New tools:**
+  - `lb_check_draft` bundles spelling, Germanisms, hunn/sinn, gender, dative after prepositions and the n-rule.
+  - `corpus_similar_sentences` gives example sentences to imitate when translating.
+  - `lb_writing_guide` serves the ZLS writing rules.
+- **Stricter server instructions:** the AI must now read the guide, retrieve similar sentences, look up uncertain words, and run `lb_check_draft` before showing any Luxembourgish.
+- **Please correct:**
+  - `resources/grammar-notes.md`, especially the lines marked [?].
+  - `resources/germanisms.tsv`.
+- **Conservative by design:** gender is judged only when the noun is exactly an LOD headword with a single gender; *de/den* after a dative preposition is not judged, because it could be a plural dative; and *sinn* + a *hunn*-verb is only "low", because it could be a state passive.
+- **Not covered:** word order and verb clusters, tense choice, idiom and register. Covering these would need a real parser or LOD's full example base.
+- **Possible next step:** load the monthly CC0 LOD dump (lod-art zip) at start-up instead of calling the API. That would give instant, offline gender and auxiliary lookups for every word and a searchable base of about 50k checked example sentences.

@@ -34,6 +34,7 @@ const POS_LABELS: Record<string, string> = {
   ABR: "abbreviation",
   ABK: "abbreviation",
   PHR: "phrase",
+  NP: "proper noun",
 };
 
 const GENDER_LABELS: Record<string, string> = {

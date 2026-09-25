@@ -16,7 +16,7 @@ function envInt(name: string, fallback: number): number {
   return Number.isFinite(v) ? v : fallback;
 }
 
-export const VERSION = "0.1.0";
+export const VERSION = "0.2.0";
 
 export const config = {
   /** Base URL of the LOD public API (CC0). */
