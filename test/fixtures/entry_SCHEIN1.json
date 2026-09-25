@@ -1,0 +1,5 @@
+{"entry":{"lod_id":"SCHEIN1","partOfSpeech":"ADJ","partOfSpeechLabel":"ADJ","lemma":"schéin","nRuleForm":"schéi","trademark":false,"ipa":"ʃɜːɪn",
+"tables":{"adjDeclension":{"@attributes":{"id":"SCHEIN1"},"basicForms":{"positive":"schéin","comparative":"méi schéin","superlative":"am schéinsten"},
+"declension":{"positive":{"singular":{"masculine":{"nominative":"schéinen","accusative":"schéinen","dative":"schéinen","genitive":"schéinen"},"feminine":{"nominative":"schéin","accusative":"schéin","dative":"schéiner","genitive":"schéiner"},"neutral":{"nominative":"schéint","accusative":"schéint","dative":"schéinen","genitive":"schéinen"}},"plural":{"masculineFeminineNeutral":{"nominative":"schéin","accusative":"schéin","dative":"schéinen","genitive":"schéiner"}}}}}},
+"microStructures":[{"partOfSpeech":"ADJ","grammaticalUnits":[{"meanings":[{"meaningID":"SCHEIN1UNI1","number":1,"targetLanguages":{"de":{"parts":[{"type":"translation","content":"schön"}]}},"examples":[]}]}]}],
+"audioString":"schéin","audioFiles":{"ogg":"https://lod.lu/uploads/OGG/schein1.ogg","aac":"https://lod.lu/uploads/AAC/schein1.m4a"},"allSynonyms":[],"categories":[]}}

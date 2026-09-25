@@ -1,0 +1,56 @@
+{
+  "manifest_version": "0.3",
+  "name": "zls-letzebuergesch",
+  "display_name": "ZLS – Lëtzebuergesch",
+  "version": "0.1.0",
+  "description": "Luxembourgish dictionary (LOD), spellchecker with n-rule hints, and the ZLS LB–FR–DE–EN translation corpus.",
+  "long_description": "Official Luxembourgish language resources from the Zenter fir d'Lëtzebuerger Sprooch (ZLS):\n\n- **Lëtzebuerger Online Dictionnaire (LOD)**: search by word, inflected form or translation; full entries with DE/FR/EN/PT translations, examples, IPA, audio and conjugation/declension tables.\n- **Spellchecker**: official orthography (spellchecker.lu dictionary) with suggestions and n-rule (Eifeler Regel) hints.\n- **Multilingual corpus**: professionally translated Luxembourgish–French–German–English segments for usage in context.\n\nSpellchecking and corpus search run locally; dictionary lookups send only the looked-up word to lod.lu.",
+  "author": {
+    "name": "Zenter fir d'Lëtzebuerger Sprooch",
+    "url": "https://zls.lu"
+  },
+  "homepage": "https://lod.lu",
+  "icon": "icon.png",
+  "server": {
+    "type": "node",
+    "entry_point": "dist/stdio.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/dist/stdio.js"],
+      "env": {
+        "ZLS_CORPUS_PATH": "${user_config.corpus_path}"
+      }
+    }
+  },
+  "tools": [
+    { "name": "lod_search", "description": "Search the Luxembourgish dictionary (LOD) by word, inflected form, or from DE/FR/EN/PT." },
+    { "name": "lod_get_entry", "description": "Full LOD entry: meanings, translations, examples, IPA, audio, n-rule form, synonyms." },
+    { "name": "lod_get_inflection", "description": "Conjugation and declension tables from LOD." },
+    { "name": "lb_spellcheck", "description": "Check Luxembourgish spelling, with suggestions and n-rule hints." },
+    { "name": "lb_n_rule_check", "description": "Check the n-rule (Eifeler Regel), optionally confirmed against LOD." },
+    { "name": "corpus_search", "description": "Search the ZLS LB–FR–DE–EN translation corpus for real usage in context." }
+  ],
+  "prompts": [
+    {
+      "name": "proofread_luxembourgish",
+      "description": "Proofread a Luxembourgish text with the ZLS tools.",
+      "arguments": ["text"],
+      "text": "Proofread the following Luxembourgish text according to the official ZLS orthography, using lb_spellcheck (verify_with_lod=true) and LOD lookups for doubtful words. Return the corrected text and a short list of changes.\n\n${arguments.text}"
+    }
+  ],
+  "keywords": ["luxembourgish", "lëtzebuergesch", "dictionary", "spellcheck", "translation", "LOD", "ZLS"],
+  "license": "EUPL-1.2",
+  "privacy_policies": ["https://zls.lu/TODO-privacy-policy"],
+  "compatibility": {
+    "platforms": ["darwin", "win32", "linux"],
+    "runtimes": { "node": ">=20.0.0" }
+  },
+  "user_config": {
+    "corpus_path": {
+      "type": "file",
+      "title": "Corpus file (optional)",
+      "description": "Local copy of the Méisproochegen Iwwersetzungskorpus (.zip, .tmx or .jsonl). Leave empty to download it from data.public.lu on first use.",
+      "required": false
+    }
+  }
+}
