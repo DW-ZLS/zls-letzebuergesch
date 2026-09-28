@@ -25,7 +25,7 @@ describe("MCP protocol", () => {
   it("lists the tools with read-only annotations", async () => {
     const { tools } = await client.listTools();
     expect(tools.map((t) => t.name).sort()).toEqual(
-      ["corpus_search", "corpus_similar_sentences", "lb_check_draft", "lb_n_rule_check", "lb_spellcheck", "lb_writing_guide", "lod_get_entry", "lod_get_inflection", "lod_search"].sort(),
+      ["corpus_search", "corpus_similar_sentences", "lb_check_draft", "lb_n_rule_check", "lb_orthography_rules", "lb_spellcheck", "lb_writing_guide", "lod_get_entry", "lod_get_inflection", "lod_search"].sort(),
     );
     for (const t of tools) {
       expect(t.annotations?.readOnlyHint).toBe(true);

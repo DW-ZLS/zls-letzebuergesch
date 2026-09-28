@@ -58,7 +58,8 @@ describe("n-rule", () => {
     expect(contextOf(tokenize("Mann")[0])).toBe("drop");
     expect(contextOf(tokenize("Hond")[0])).toBe("keep");
     expect(contextOf(tokenize("d'Kanner")[0])).toBe("keep");
-    expect(contextOf(tokenize("2")[0])).toBe("unknown");
+    expect(contextOf(tokenize("2")[0])).toBe("keep"); // zwee
+    expect(contextOf(tokenize("5")[0])).toBe("drop"); // fënnef
     expect(contextOf(undefined)).toBe("keep");
   });
 
@@ -88,12 +89,12 @@ describe("n-rule", () => {
     const issues = await checkNRule("de Mann kacht an der Kichen gären", { ...deps(), lodNRuleForm: lod });
     expect(issues.map((i) => `${i.word}→${i.suggestion}:${i.confidence}`)).toEqual(["Kichen→Kiche:high"]);
     expect(issues[0].lodConfirmed).toBe(true);
-    expect(lookups).toContain("Mann"); // looked up, LOD says no n-rule form → no hint
+    expect(lookups).not.toContain("Mann"); // nouns not ending in -en keep their n (§6.1.2.2): no lookup needed
   });
 
   it("respects the LOD lookup budget", async () => {
     let n = 0;
-    await checkNRule("Mann gesinn Mann gesinn Mann gesinn", { ...deps(), lodNRuleForm: async () => (n++, undefined), lodBudget: 2 });
+    await checkNRule("fannen gesinn fannen gesinn fannen gesinn", { ...deps(), lodNRuleForm: async () => (n++, undefined), lodBudget: 2 });
     expect(n).toBe(2);
   });
 });

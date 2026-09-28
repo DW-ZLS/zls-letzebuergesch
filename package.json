@@ -1,6 +1,6 @@
 {
   "name": "@zls/letzebuergesch-mcp",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "MCP server for Luxembourgish: LOD dictionary, spellchecker (incl. n-rule hints) and the ZLS multilingual translation corpus.",
   "type": "module",
   "license": "EUPL-1.2",

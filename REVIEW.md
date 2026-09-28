@@ -52,3 +52,21 @@ What I built, what I couldn't verify from my build environment, and what needs a
 - **Conservative by design:** gender is judged only when the noun is exactly an LOD headword with a single gender; *de/den* after a dative preposition is not judged, because it could be a plural dative; and *sinn* + a *hunn*-verb is only "low", because it could be a state passive.
 - **Not covered:** word order and verb clusters, tense choice, idiom and register. Covering these would need a real parser or LOD's full example base.
 - **Possible next step:** load the monthly CC0 LOD dump (lod-art zip) at start-up instead of calling the API. That would give instant, offline gender and auxiliary lookups for every word and a searchable base of about 50k checked example sentences.
+
+## 6. v0.3: official orthography integrated
+
+- **Machine-readable edition** of *D’Lëtzebuerger Orthografie* is in `resources/orthografie/` (all 183 paragraphs with examples, § numbers and pages). The full package, including Markdown and JSON plus the conversion scripts, is delivered separately.
+- **New tool `lb_orthography_rules`:** the AI can look up the official rule by §, by topic (it also understands English, German and French questions) or by example word, and cite it.
+- **n-rule rewritten after chapter 6:** numbers and letters are read aloud to decide the rule, loanwords count by pronunciation, and names are exempt. It covers the optional cases (-äin, one-syllable -een, before si/se/säin/seng/sech/sou), punctuation, hyphenated compounds and quotation marks. Every finding cites its §.
+- **New deterministic checks**, all with §:
+  - spacing before ! ? ; : and in abbreviations (z. B.) and units (10 %)
+  - capitalisation of weekdays, time adverbs and sentence starts
+  - é/ë and ß
+  - apostrophes and the linking s (*wann s de*)
+  - comma before *datt/well/ob…*
+  - dash and quotation marks
+- **Hints:** unknown words get a short explanation citing the rule, for example “no lengthening h (§4.3.1)”.
+- **Regression suite (`test/orthography.test.ts`):** the book's own examples must pass. The suite shows 0 high-confidence false alarms on about 1,600 correct snippets.
+- **To check:**
+  1. The rule digest `resources/orthografie-digest.md` (my condensation).
+  2. Whether ZLS may redistribute the orthography text publicly in this form. The copyright belongs to the Ministry; ZLS is co-editor.

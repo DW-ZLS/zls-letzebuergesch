@@ -13,7 +13,8 @@ Luxembourgish language resources of the **Zenter fir d'Lëtzebuerger Sprooch (ZL
 | `corpus_search` | Real, professionally translated usage: search LB/FR/DE/EN, get the aligned segments | Méisproochegen Iwwersetzungskorpus (local) |
 | `corpus_similar_sentences` | Closest professional translations for a source sentence, to reuse authentic phrasing when translating into LB | corpus (local, BM25) |
 | `lb_check_draft` | One-stop check of an AI draft: spelling, Germanisms (*Wetter → Wieder*), hunn/sinn, article–noun gender, dative after prepositions, n-rule | Hunspell + LOD + ZLS lists |
-| `lb_writing_guide` | ZLS writing rules the AI reads before writing Luxembourgish | `resources/grammar-notes.md` |
+| `lb_writing_guide` | Key rules of the official orthography (with §) plus grammar rules; the AI reads them before writing Luxembourgish | `resources/orthografie-digest.md`, `resources/grammar-notes.md` |
+| `lb_orthography_rules` | Search or read the official orthography: by § (`6.1.2.2`), by topic in any language ("comma before datt"), or by example word (*Wäin*). Answers cite the paragraph and page | *D’Lëtzebuerger Orthografie* (CPLL/ZLS), machine-readable edition in `resources/orthografie/` |
 
 Also: a `zls://about` resource (sources and licences) and a `proofread_luxembourgish` prompt.
 
@@ -86,6 +87,15 @@ Two plain files in `resources/` steer the AI and the checker. Edit them directly
 
 - `resources/grammar-notes.md`: the writing rules shown to the AI before it writes Luxembourgish.
 - `resources/germanisms.tsv`: German word → Luxembourgish correction, one per line, **TAB**-separated.
+- `resources/orthografie-digest.md`: the condensed official orthography rules shown to the AI.
+- `resources/orthografie/`: the machine-readable orthography (regenerate from the PDF with the scripts in the separate data package).
+
+## How good is it? (evaluation against the official rules)
+
+`npm test` runs every correct example from *D’Lëtzebuerger Orthografie* (≈1,600 snippets of running text) through the n-rule and orthography checkers. It also runs sentences with rule violations built from the book.
+
+- **Correct book examples:** no high-confidence false alarms. The only exception is the letter-name example *den sch*.
+- **Constructed errors:** 26 of 27 were caught, each with the right §.
 
 ## Project layout
 

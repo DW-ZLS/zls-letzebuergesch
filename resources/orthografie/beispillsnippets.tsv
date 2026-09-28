@@ -1,0 +1,1953 @@
+snippet	paragraf	polaritéit	block
+Buch, krank, Mond, Schinn	1.1	pos	example
+Biischt, Fro, Fuuss, Ham	1.1	pos	example
+a, i, o, u	1.1	pos	text
+a, i, o	1.1	pos	text
+ootmen, Staang	1.1	pos	example
+blo, Fra, kal, Otem	1.1	pos	example
+delikate Fësch	1.1	pos	example
+delikaatste Fësch	1.1	pos	example
+Album, blann, Lastik, Schong	1.1	pos	example
+a, i, o	1.2.1	pos	text
+Af, al, aner, Biz, Dag, du otems, falen, Libeslidd, molen, schif, tuten	1.2.1	pos	example
+Boot, Moos, Staat	1.2.1	pos	text
+staatlech, Staatsbeamten, verstaatlechen	1.2.1	pos	text
+Bot, Mos, Stat	1.2.1	pos	text
+Gamma	1.2.1	pos	note
+Guy	1.2.1	pos	note
+Box, faxen, Spigel, Vugel, Dosen, Musel, Knujel, vijenzeg	1.2.1	pos	example
+a, i, o	1.2.2	pos	text
+A, Fra, Mo, ni, Su	1.2.2	pos	example
+Zoo	1.2.2	pos	exception
+Aarbecht, laang, liichten, Luucht, riicht, Sprooch	1.2.3	pos	example
+ootmen	1.2.3	pos	example
+Otem, du otems	1.2.3	pos	example
+du mools, hie moolt	1.2.3	pos	example
+ech molen	1.2.3	pos	example
+du tuuts	1.2.3	pos	example
+ech tuten, hien tut	1.2.3	pos	example
+du ziils, hien ziilt	1.2.3	pos	example
+ech zilen	1.2.3	pos	example
+Ausnam	1.2.3	pos	example
+Fürerschäin	1.2.3	pos	example
+Führerschäin	1.2.3	pos	example
+ie	1.2.3	pos	bullet
+bieden, Giedel, hien, liesen, Schief	1.2.3	pos	example
+Schaf	1.2.3	pos	example
+ie	1.2.3	pos	text
+hatt liest	1.2.3	pos	example
+hien zielt	1.2.3	pos	example
+hien ziilt	1.2.3	pos	example
+ier	1.2.3	pos	text
+ie	1.2.3	pos	text
+Nieren, schmieren, Regierung	1.2.3	pos	example
+ie	1.2.3	pos	text
+Epicerie, Regie, Poesie	1.2.3	pos	example
+ä, ü	1.2.3	pos	bullet
+a, o	1.2.3	pos	bullet
+berüümt; üben	1.2.3	pos	example
+geüübt; lämen	1.2.3	pos	example
+geläämt; blöd	1.2.3	pos	example
+blöödst; Fön	1.2.3	pos	example
+fönen	1.2.3	pos	example
+du fööns; seriö	1.2.3	pos	example
+am seriöösten	1.2.3	pos	example
+Äerd, äert Häerz, Päerd, dir wäert	1.2.3	pos	example
+a, i, o	1.3.1	pos	text
+änneren, Ball, Bidden, gutt, Hummer, iwwer, Kapp, kromm, Resümmee	1.3.1	pos	example
+Dünger, fuschen, Hirsch, Hong, Kand, Krich, Land, Paschtouer, picken, Planz, Stand, Zant	1.3.1	pos	example
+e Bal	1.3.1	pos	text
+e Ball	1.3.1	pos	text
+üben	1.3.1	pos	text
+Dünger	1.3.1	pos	text
+Anorak, banal, Galerie, harmonéieren, Kanal, Kanoun	1.3.1	pos	example
+Album, Datum, Kaktus, Lastik, Léierin	1.3.1	pos	example
+Appetit, Limonad, Minett	1.3.1	pos	example
+am, an, bis, (do)dran	1.3.1	pos	example
+dodranner	1.3.1	pos	example
+drop, drun, eran, erop, him	1.3.1	pos	example
+(do)hin	1.3.1	pos	example
+dohinner	1.3.1	pos	example
+mam, mat, ob, op, um, un, vum, vun, zum	1.3.1	pos	example
+datt – dat, hatt – hat	1.3.1	pos	example
+Alstad, Bamschoul, kalbliddeg, Lafschong, Mokrämp	1.5	pos	example
+Futtball, Hammbier, Sonndeg, stallhalen, Wittfra, Blödsinn, Tatsaach	1.5	pos	example
+Zan|spang, Zan|pasta, Zwi|spalt, zwi|lichteg, Lib|haber, Lib|schaft, Man|mal	1.5	pos	example
+Mol|zecht	1.5	pos	text
+Moolzecht	1.5	pos	text
+Kathedralstuerm, Schidsriichter, Schofspelz	1.5	pos	example
+fofzéng, nonzéng	1.5	pos	exception
+Mod – Modchen	1.6.1	pos	text
+ch	1.6.1	pos	text
+Af – Äffchen	1.6.1	pos	text
+-chen	1.6.1	pos	example
+Märchen, Ham – Hämmchen, Trap – Träppchen,	1.6.1	pos	example
+Tut – Titchen	1.6.1	pos	example
+-bar: strofbar	1.6.1	pos	example
+-haft: narhaft	1.6.1	pos	example
+-lech: änlech, nämlech, üblech, wotlech	1.6.1	pos	example
+berufflech, friddlech, männlech, ongemittlech, zimmlech	1.6.1	pos	example
+-lecht: nämmlecht	1.6.1	pos	example
+-lek: Trap – Träpplek	1.6.1	pos	example
+-ling: Libling, Schädling	1.6.1	pos	example
+-los: wallos	1.6.1	pos	example
+-nes	1.6.1	pos	example
+-nis: Erlabnes	1.6.1	pos	example
+Erlabnis	1.6.1	pos	example
+-sam: rotsam	1.6.1	pos	example
+-schaft: Grofschaft, Komerodschaft	1.6.1	pos	example
+-weis: sträppweis	1.6.1	pos	example
+do-, no-, of-	1.6.1	pos	text
+vir-	1.6.1	pos	text
+dobleiwen, nobréngen, nostoen, ofginn, ofmaachen, virdrun, virgoen	1.6.1	pos	example
+virmaachen	1.6.1	pos	example
+ur-	1.6.1	pos	text
+Ursaach, ursprénglech, Urteel, verurteelen	1.6.1	pos	example
+a(n)-, in-, on-, op-, u(n)-	1.6.1	pos	text
+amaachen, anootmen, inkompetent, onméiglech, opmaachen, ugoen	1.6.1	pos	example
+undoen	1.6.1	pos	example
+-zeg	1.6.1	pos	exception
+zwanzeg, fofzeg, nonzeg	1.6.1	pos	example
+-s	1.6.2	pos	text
+Ge…s	1.6.2	pos	text
+Geaafs, Gemools, Getuuts	1.6.2	pos	example
+keemools, villmools	1.6.2	pos	example
+daagsiwwer, enges Daags	1.6.2	pos	example
+Akafstut, Kathedralstuerm	1.6.2	pos	example
+-al: fatal – fataalt, national – nationaalt	1.6.3	pos	example
+-am: infam – infaamt	1.6.3	pos	example
+-an: profan – profaant, spontan – spontaant	1.6.3	pos	example
+-än: souverän – souveräänt	1.6.3	pos	example
+-ar: elementar – elementaart, polar – polaart	1.6.3	pos	example
+-är: elitär – elitäert, humanitär	1.6.3	pos	example
+humanitäert	1.6.3	pos	example
+-at: adäquat – adäquaatst, delikat – delikaatst	1.6.3	pos	example
+-bar: brauchbar – brauchbaart, éierbar – éierbaart	1.6.3	pos	example
+-fon: germanofon – germanofoont, frankofon – frankofoont	1.6.3	pos	example
+-id: hybrid – hybriidst, morbid – morbiidst	1.6.3	pos	example
+-im: intim – intiimt	1.6.3	pos	example
+-in: feminin – feminiint, maskulin – maskuliint	1.6.3	pos	example
+-is: prezis – preziist	1.6.3	pos	example
+-it: explizit – expliziitst	1.6.3	pos	example
+explizitt – explizittst	1.6.3	pos	example
+-iv: definitiv – definitiivt, positiv – positiivt	1.6.3	pos	example
+-log: analog – analoogt	1.6.3	pos	example
+-los: gehierlos – gehierloost, hoffnungslos – hoffnungsloost	1.6.3	pos	example
+-nom: autonom – autonoomt	1.6.3	pos	example
+-ön: obszön – obszöönt	1.6.3	pos	example
+-os: rigoros – rigoroost	1.6.3	pos	example
+-ös: adipös – adipööst	1.6.3	pos	example
+-phon: germanophon – germanophoont, frankophon – frankophoont -sam: gemeinsam – gemeinsaamt, opmierksam – opmierksaamt	1.6.3	pos	example
+-ut: akut – akuutst	1.6.3	pos	example
+vereinbaren – vereinbaart, verharmlosen – verharmloost	1.6.3	pos	example
+debil, en debilt Laachen, en debillen Typ	1.6.3	pos	example
+fragil, e fragilt Wiesen, e fragillen Typ	1.6.3	pos	example
+publik, e publikt Evenement, e publicken Optrëtt	1.6.3	pos	example
+feminin, e feminint Optrieden, e femininnen Typ	1.6.3	pos	example
+feminin, e feminiint Optrieden, e femininen Typ	1.6.3	pos	example
+a, i, o	2	pos	text
+ee	2	pos	bullet
+ee	2	pos	bullet
+ch, chs, ck, ng	2	pos	bullet
+nk	2	pos	example
+é, è, ê	2	pos	note
+ee	2.1	pos	text
+ee	2.1	pos	bullet
+eeneg, Reegel, weeder nach	2.1	pos	example
+Ee, een, deen, Fleesch, jee, Reen, Wee	2.1	pos	example
+ee	2.1	pos	text
+Kolleeg, Kolleegin	2.1	pos	example
+kollegial	2.1	pos	example
+konkreet,	2.1	pos	example
+konkretiséieren	2.1	pos	example
+ee	2.1	pos	bullet
+angeneem, Bëbee, Feierlechkeet, Fräiheet, Schéinheet	2.1	pos	example
+ee	2.1	pos	text
+en angeneemen Owend, Feierlechkeeten, Fräiheeten, Schéinheeten	2.1	pos	example
+Chile, Nepal, Norwegen, Schweden	2.1	pos	example
+Chileen, Chinees, Italieener, nepaleesesch, schweedesch	2.1	pos	example
+beta-, de-, demo(-), dezi-, ego(-),	2.1	pos	bullet
+epi-, geo-, hetero(-), mega(-), meta-, meteo(-), metro(-), neo-, (-)ped(-), peri-, pre-, re-, retro(-), steno(-), stereo(-), tele-, theo-, xeno-	2.1	pos	example
+Demograf, Deziliter, orthopedesch	2.1	pos	example
+-um	2.1	pos	text
+-us	2.1	pos	text
+Evangelium	2.1	pos	example
+Evangelien	2.1	pos	example
+evangeelesch	2.1	pos	example
+, Klerus	2.1	pos	example
+Kleeriker	2.1	pos	example
+, Plenum, Tetanus	2.1	pos	example
+Helium, Neon, Selen	2.1	pos	example
+eeben, extreem, Geen, heterogeen, Treema, Veen	2.1	pos	example
+eben, extrem, Gen, heterogen, Trema, Ven	2.1	pos	example
+ee	2.1	pos	bullet
+Alphabet (alphabetesch), Februar, Medien (Medienhaiser), Meter (symmetresch, Kilometer)	2.1	pos	example
+Alphabeet (alphabeetesch), Feebruar, Meedien (Meedienhaiser), Meeter (symmeetresch, Kilomeeter)	2.1	pos	example
+Proble(e)m	2.1	pos	bullet
+Problem	2.1	pos	bullet
+Probleem	2.1	pos	bullet
+Congé, Musée, Assemblée générale	2.1	pos	example
+ee	2.1	pos	text
+Kannapee	2.1	pos	example
+Canapé	2.1	pos	example
+Keess	2.1	pos	example
+Caisse	2.1	neg	example
+Keessjee	2.1	pos	example
+Caissier	2.1	pos	example
+Pawee	2.1	pos	example
+Pavé	2.1	pos	example
+Blech, Dreck, Fleck, keng, kennen, Persoun	2.2.1	pos	example
+Schwämm	2.2.1	pos	example
+schwammen	2.2.1	pos	example
+Träpplek	2.2.1	pos	example
+Trap	2.2.1	pos	example
+Schäffchen	2.2.1	pos	example
+Schaf	2.2.1	pos	example
+a, ä, o	2.2.1	pos	text
+Fräsch	2.2.1	pos	example
+, Häll	2.2.1	pos	example
+, Käschten	2.2.1	pos	example
+Kräsi	2.2.1	pos	example
+, Schäffen	2.2.1	pos	example
+, tässelen	2.2.1	pos	example
+, träntelen	2.2.1	pos	example
+ch, chs, ck, ng, nk, x	2.2.2	pos	text
+hie brécht, dréchen, knéchelen, du méchs, sécher, Spréch, hie stécht, wéchentlech, Béchs, héchstens, déck, Geschéck, dräizéng, kéng, zéng, blénken, féx	2.2.2	pos	example
+Diddeleng, Dippech, Éislek, Éisleker, Heemecht, heemlech, Musek, Museker, zwanzeg	2.2.2	pos	example
+ech, mech, dech, sech	2.2.2	pos	example
+meng, deng, seng	2.2.2	pos	example
+mengersäits, sengetweegen	2.2.2	pos	example
+flécken, Flecken; kéng, keng; kléngt, klengt; Réng, reng;	2.2.2	pos	example
+Stécker, Stecker; strécken, strecken; zécken, zecken	2.2.2	pos	example
+Comité, Congé, Musée, Assemblée générale, Chargé de cours, Mathésproff	2.2.2	pos	example
+Bëbee, Bevëlkerung, ëffentlech, ëm	2.2.3	pos	example
+, ënnen, fënnef, gëttlech, Mënsch, mëschen, nërdlech, Stëbs, Wëllef	2.2.3	pos	example
+Aen, Apel, Bouwen, droen, elo, emol, eraus, héieren, kachen, Pressessioun, Suen	2.2.3	pos	example
+dem, den, der	2.2.3	pos	bullet
+dës, dësen	2.2.3	pos	bullet
+de, em	2.2.3	pos	bullet
+en, er, es, et, mer, se	2.2.3	pos	bullet
+net	2.2.3	pos	bullet
+ze	2.2.3	pos	bullet
+e-	2.2.3	pos	bullet
+be-, ge-	2.2.3	pos	bullet
+ch	2.2.3	pos	note
+sch	2.2.3	pos	note
+mécht	2.2.3	pos	note
+Mëscht.	2.2.3	pos	note
+ch	2.2.3	pos	bullet
+chs, ck, ng, nk	2.2.3	pos	bullet
+du bréchs, dréchen, du méchs, hie mécht, sécher, Spréch, Stréch	2.2.3	pos	example
+sch	2.2.3	pos	bullet
+Brëscht, Dësch, Fëscher, Këscht, mëschen, rëschten, Sëschter	2.2.3	pos	example
+ee	2.2.4	pos	text
+entdeeën, freeën, Geleeënheet, Jeeër, leeën, Steeën, streeën	2.2.4	pos	example
+gëeegent, gëeekelt, gëeelzt, unzëeegnen	2.2.4	pos	example
+eng Ee-Eegenschaft	2.2.4	pos	example
+eng Eeeegenschaft, e Stree-Eemer	2.2.4	pos	example
+e Streeeemer	2.2.4	pos	example
+zweeeeëg Zwillingen	2.2.4	pos	example
+i, o, u	2.2.4	pos	bullet
+ageengt, ugeeckt, beurteelt, geiergert, geiert, geimpft, geotemt	2.2.4	pos	example
+Batterie – Batterië sammelen, Biografie – Biografië schreiwen, Chance – Chancëgläichheet, Kopie – Kopië maachen, Rallye – Rallyë fueren	2.2.5	pos	example
+Allerhellegen, Artikelen, eekeleg, grujeleg, héieren, interessant, Timberen, zeréck	2.3.1	pos	example
+äifereg	2.3.1	pos	example
+äifreg	2.3.1	pos	example
+gouereg	2.3.1	pos	example
+goureg	2.3.1	pos	example
+iwweregens	2.3.1	pos	example
+iwwregens	2.3.1	pos	example
+trauereg	2.3.1	pos	example
+traureg	2.3.1	pos	example
+wakereg	2.3.1	pos	example
+waakreg	2.3.1	pos	example
+Wouerecht	2.3.1	pos	example
+Wourecht	2.3.1	pos	example
+waakreg	2.3.1	pos	note
+ze	2.3.1	pos	bullet
+ung	2.3.1	pos	bullet
+-el	2.3.1	pos	bullet
+-l	2.3.1	pos	bullet
+entwéckelen – Entwécklung, handelen – Handlung, auskuppelen – Kupplung, versammelen – Versammlung, verwiesselen – Verwiesslung	2.3.1	pos	example
+elo, eran, eraus, eréischt, erëm, esou, ewech, ewéi, ewell	2.3.2	pos	example
+lo, ran, raus, réischt, rëm, sou, wech, wéi, well	2.3.2	pos	example
+et	2.3.2	pos	exception
+déi	2.3.3	pos	bullet
+dat	2.3.3	pos	bullet
+déi	2.3.3	pos	bullet
+d’Aarbecht, d’Fra	2.3.3	pos	example
+d’Haus, d’Kand	2.3.3	pos	example
+d’Fraen, d’Männer	2.3.3	pos	example
+ze	2.3.3	pos	bullet
+Et ass vill ze entdecken.	2.3.3	pos	example
+Hie brauch net ze iwwerleeën.	2.3.3	pos	example
+Dat ass, fir sech ze iergeren.	2.3.3	pos	example
+z’iessen	2.3.3	pos	exception
+et	2.3.3	pos	bullet
+ze	2.3.3	pos	bullet
+’t ass waarm. ’t geet eis gutt. ’t ass vill z’entdecken.	2.3.3	pos	example
+ze	2.3.3	pos	bullet
+Hatt huet sech net genéiert, dat iwwerall erëmzeerzielen.	2.3.3	pos	example
+De Plastik vun der Pizza ass net fir matzeiessen.	2.3.3	pos	example
+au	3.1	pos	bullet
+au	3.1	pos	example
+Bauer, haut, jaus, maulen	3.1	pos	example
+au	3.1	pos	example
+Braut, dauschen, Haut, lauter	3.1	pos	example
+ei	3.1	pos	bullet
+Feier, nei, reimen	3.1	pos	bullet
+ai	3.1	pos	bullet
+Raiber, Saier	3.1	pos	bullet
+ei	3.1	pos	bullet
+ai	3.1	pos	bullet
+ai	3.1	pos	bullet
+au	3.1	pos	bullet
+Daum – Daimchen, bauen – Gebai, haut – haiteg, Haut – Haitchen, Laus – Lais, Maul – Mailercher, Maus – Mais, sauer – Saier	3.1	pos	example
+ai	3.1	pos	text
+Pai	3.1	pos	text
+paye.	3.1	pos	text
+ei	3.1	pos	text
+äi	3.1	pos	bullet
+Äis, bäissen, däitlech, fläisseg, mäin, näischnotzeg	3.1	pos	bullet
+äi	3.1	pos	note
+au	3.1	pos	note
+Fauscht – Fäischt, dauschen – Gedäischs	3.1	pos	example
+éi	3.1	pos	bullet
+béis, Kéier, léinen	3.1	pos	bullet
+ou	3.1	pos	bullet
+Bouf, lounen, wouer	3.1	pos	bullet
+ie	3.1	pos	bullet
+bieden, Biesem, lieweg	3.1	pos	bullet
+ue	3.1	pos	bullet
+Buedem, bueden, lues	3.1	pos	bullet
+ck	3.1	pos	bullet
+tz	3.1	pos	bullet
+Bauz, Biesem, eraus, hie géif, Kaul, Mous, Poul, ech souz	3.1	pos	example
+ss	3.1	pos	text
+bäissen, dobaussen	3.1	pos	example
+-er	3.1	pos	bullet
+-en	3.1	pos	bullet
+Aen, e bloen Hutt, doen, knaen, Plien, Prabbelien, Statuen, Suen	3.1	pos	example
+eu	3.1	pos	bullet
+äu	3.1	pos	bullet
+Eefeu, euphoresch, Euro, Europa, Euthanasie, Heuchler, neutral	3.1	pos	example
+Rheuma	3.1	pos	example
+äusserlech, enttäuscht	3.1	pos	example
+oi	3.1	pos	text
+Boiler, Koi, Konvoi, spoileren	3.1	pos	example
+Moien, moies	3.1	pos	text
+eu, ou, oi, ie	3.1	pos	bullet
+ai	3.1	pos	bullet
+Neveu, Pneu, Coup, Blackout, Foire, Trottoir, Epicerie, Regie, Baisse	3.1	pos	example
+ier	3.2.1	pos	text
+uer	3.2.1	pos	text
+Bierg, Bierger, duerch, Fierschter, fuerderen, fuerschen, Hierscht	3.2.1	pos	example
+Kierch, Muert, natierlech, Tuerm, Wiert, Wuert, Wierder	3.2.1	pos	example
+Wieder	3.2.1	pos	example
+giereg, Nieren, Regierung, Schmier, schmieren, Zier	3.2.1	pos	example
+Buer, bueren, fueren, Gehier, Geschier, hie fiert hin an hier, huerelen	3.2.1	pos	example
+Spuer, spueren, hie spuert, Stier, Tuer	3.2.1	pos	example
+Zwier	3.2.1	pos	example
+Bier	3.2.1	pos	example
+Dier	3.2.1	pos	example
+dier	3.2.1	pos	example
+Mier	3.2.1	pos	example
+Stute	3.2.1	pos	example
+hier	3.2.1	pos	example
+ier	3.2.1	pos	example
+ieren	3.2.1	pos	example
+en huet sech geiert, ierféieren, Iertum	3.2.1	pos	example
+dat ass obskuer, puere Whiskey, puert Waasser, e Puer Schong, hien ass stuer	3.2.1	pos	example
+Kuer, Kueren	3.2.1	pos	example
+dir, Dir, mir, hir	3.2.1	pos	bullet
+hiert Haus	3.2.1	pos	bullet
+vir	3.2.1	pos	bullet
+fir	3.2.1	pos	bullet
+zur, Ir – Iren – iresch	3.2.1	pos	bullet
+Irland	3.2.1	pos	bullet
+ur-	3.2.1	pos	bullet
+ural, Urenkelin, Urgrousspapp, Urmënsch, Ursaach, Urteel	3.2.1	pos	example
+-ir	3.2.1	pos	bullet
+Saphir, Souvenir, Vampir	3.2.1	pos	bullet
+-ur	3.2.1	pos	bullet
+Akupunktur, Apparatur, Architektur, Blessur, Figur, Kultur, Natur, Prozedur, Purpur, Skulptur, Struktur, Tastatur, Temperatur, Tortur, Zensur	3.2.1	pos	example
+kulturell, strukturéieren, Temperaturen, zensuréieren	3.2.1	pos	example
+Ge…s	3.2.1	pos	text
+rs	3.2.1	pos	text
+dat Geapparatuers, Geprozeduers	3.2.1	pos	example
+Hirsch, Kirsch, Wirschtchen, Wurscht	3.2.1	pos	example
+puristesch	3.2.1	pos	example
+Wirtschaft (Ekonomie)	3.2.1	pos	example
+Wiertschaft (Bistro)	3.2.1	pos	example
+ie	3.2.1	pos	bullet
+ue	3.2.1	pos	bullet
+Fierschter	3.2.1	pos	example
+Wiechter	3.2.1	pos	example
+fierwen	3.2.1	pos	example
+hiewen	3.2.1	pos	example
+Hierscht	3.2.1	pos	example
+Hiecht	3.2.1	pos	example
+Kuerbel	3.2.1	pos	example
+Nuebel	3.2.1	pos	example
+Muert	3.2.1	pos	example
+Mued	3.2.1	pos	example
+Wierder	3.2.1	pos	example
+Wieder	3.2.1	pos	example
+boer, Hoer, Joer, Joerhonnert, kloer, moer, Neijoerschdag	3.2.2	pos	example
+boert Geld, kloert Waasser, moert Fleesch	3.2.2	pos	example
+horeg, Joren, jorelaang, mat borem Geld, mat klorem Kapp, mat morem Speck	3.2.2	pos	example
+Gefor, Por	3.2.2	pos	example
+chloren – gechloort, opboren – opgeboort	3.2.2	pos	example
+äe	3.2.3	pos	text
+Äerd, äert Häerz, Päerd, dir wäert	3.2.3	pos	example
+äre Bouf, däreg, gären, Här, käreg, Märercher, Märel, Stär	3.2.3	pos	example
+Märchen, järlech	3.2.3	pos	example
+Fändel, Komma, mellen	4.1.1.1	pos	example
+Fritt, Gefill, Gittar, midd, Mull, zolidd	4.1.1.1	pos	example
+ck	4.1.1.1	pos	text
+tz	4.1.1.1	pos	text
+am, an, bis, (do)dran, drop, (vir)drun, eran, erop, (do)hin, mam, mat	4.1.1.1	pos	example
+net, ob, op, um, un, vum, vun, zum	4.1.1.1	pos	example
+Appetit, Bus, Echec, Fabrik	4.1.1.1	pos	example
+Fabrick	4.1.1.1	pos	example
+Hit, Job, Katholik, Klinik	4.1.1.1	pos	example
+Klinick	4.1.1.1	pos	example
+Kritik, Limonad, Liter, Lok, Medezin, Minett, Modell, parallel, Politik, sec, Synonym, Tarif, Titel	4.1.1.1	pos	example
+Bussen	4.1.1.1	pos	example
+Busser	4.1.1.1	pos	example
+Echecken, Fabricken, Katholickin, Klinicken, Medezinner, mat parallelle Linnen, Rubricken, e secken Toun, Synonymmen, Tariffer	4.1.1.1	pos	example
+Kritikerin	4.1.1.1	pos	text
+Politiker	4.1.1.1	pos	text
+esch	4.1.1.1	pos	text
+Medezin, Medezinner	4.1.1.1	pos	example
+medezinesch	4.1.1.1	pos	example
+Typ, Typpen	4.1.1.1	pos	example
+typesch	4.1.1.1	pos	example
+analytesch, kritesch	4.1.1.1	pos	example
+finnesch	4.1.1.1	pos	example
+Finnland	4.1.1.1	pos	example
+spëttesch	4.1.1.1	pos	example
+Spott	4.1.1.1	pos	example
+Agraff, Etapp, Finall, Limitt, Originn, Vitaminn	4.1.1.1	pos	example
+-néieren	4.1.1.1	pos	text
+(i)onell	4.1.1.1	pos	text
+abandonéieren, abonéieren, affinéieren, betonéieren, braconéieren	4.1.1.1	pos	example
+deconéieren, depanéieren, deponéieren, detonéieren, dominéieren	4.1.1.1	pos	example
+goudronéieren, ëmdisponéieren, faszinéieren, harmonéieren	4.1.1.1	pos	example
+imponéieren, impressionéieren, intonéieren, komponéieren, ordonéieren	4.1.1.1	pos	example
+passionéieren, perquisitionéieren, plafonéieren, positionéieren	4.1.1.1	pos	example
+rationéieren, revisionéieren, soupçonéieren	4.1.1.1	pos	example
+hormonell, konstitutionell, operationell, oppositionell, optionell	4.1.1.1	pos	example
+professionell, rationell, sensationell, traditionell	4.1.1.1	pos	example
+Abonnement, Fonctionnaire, impressionnant, raisonnabel	4.1.1.1	pos	example
+Abonement, Fonctionaire, impressionant, raisonabel	4.1.1.1	pos	example
+Domän	4.1.1.1	pos	example
+Domaine, Kartusch	4.1.1.1	pos	example
+Cartouche	4.1.1.1	pos	example
+néieren	4.1.1.1	pos	text
+-(i)onell	4.1.1.1	pos	text
+funktionéieren	4.1.1.1	pos	example
+fonctionéieren, komplettéieren	4.1.1.1	pos	example
+completéieren, koordinéieren	4.1.1.1	pos	example
+coordonéieren	4.1.1.1	pos	example
+frankofon	4.1.1.1	pos	example
+francophone	4.1.1.1	pos	example
+e francophonne	4.1.1.1	pos	example
+Mënsch	4.1.1.1	pos	example
+e frankofone	4.1.1.1	pos	example
+Mënsch	4.1.1.1	pos	example
+-fon/-phon	4.1.1.1	pos	example
+Gamma	4.1.1.1	pos	note
+Guy	4.1.1.1	pos	note
+dack – dacks, Famill – Familljen, Folleg – Nofollger – déi follgend	4.1.1.2	pos	example
+Tatsaachen, hallef – hallwer – Hallwerweis – Hallschent, knapp – knapps, mann – op d’mannst, schonn – schonns	4.1.1.2	pos	example
+blann Gromperen – blannt Glas, déck – Déckt, dënn – Dënnt, klappen – Geklapps, wullen – Gewulls	4.1.1.2	pos	example
+schaffen – du schaffs, hie schafft; sëtzen – hie sëtzt	4.1.1.2	pos	example
+Album, Anorak, banal, Datum, Dëmpel, dramatesch, Engel, Figur	4.1.2	pos	example
+Galerie, Kamäin, Kamell, kamoud, Kanal, Kanoun, Kiewerlek, Komoud	4.1.2	pos	example
+Lastik, Pillem	4.1.2	pos	example
+Albumen, Datumer, Dëmpelen, Engelen, Kiewerleken, Lastiker, Pillemen	4.1.2	pos	example
+-ett	4.1.2	pos	example
+-ell: Binnett, Brickett, Bullett, Diskett	4.1.2	pos	example
+Forschett, Fotell, Gamell, Jackett, Jartell, Kotlett, Minett, Omlett	4.1.2	pos	example
+Plackett, Sockett	4.1.2	pos	example
+Affaire, Affiche, Allee, Attraktioun	4.1.2	pos	example
+effektiv, Effort, Graffiti, Halluzinatioun, immens, impeccabel	4.1.2	pos	example
+offensiv, Oppositioun	4.1.2	pos	example
+Affekot	4.1.2	pos	bullet
+Af-	4.1.2	neg	bullet
+-in, -(n)es	4.1.2	pos	bullet
+-(n)is, -al , -an, -el	4.1.2	pos	bullet
+-us	4.1.2	pos	bullet
+Conditionnel – Conditionnellen, Dosis – Dosissen	4.1.2	pos	example
+Gäertnerin – Gäertnerinnen, Geheimnis – Geheimnisser	4.1.2	pos	example
+Hiewan – Hiewannen	4.1.2	pos	example
+Hotel – Hoteller	4.1.2	pos	example
+Hotellen, Journal – Journallen, Kaktus – Kaktussen	4.1.2	pos	example
+Kenntnes – Kenntnesser, Léierin – Léierinnen, Pluriel	4.1.2	pos	example
+Pluriellen	4.1.2	pos	example
+Schreiwes – Schreiwessen, Trampolin – Trampolinnen	4.1.2	pos	example
+Trampolinner, Tunnel – Tunnellen, Zirkus – Zirkussen	4.1.2	pos	example
+Comic – Comicken, Donut – Donutten, Laptop – Laptoppen	4.1.2	pos	example
+ss	4.1.3	pos	text
+gelies, rout, Schoul	4.1.3	pos	example
+blouss, Schouss, Wiessel, wuessen	4.1.3	pos	example
+Molkëscht, Sakduch, Schofspelz	4.1.4	pos	example
+Brennnessel, Kongressstad, Sauerstofffläsch	4.1.4	pos	example
+p, t, k, f	4.2.1	pos	text
+b, d, g, v	4.2.1	pos	text
+p, t, k	4.2.1	pos	text
+f, v	4.2.1	pos	bullet
+Léiw	4.2.1	pos	bullet
+léif	4.2.1	pos	bullet
+brav	4.2.1	pos	example
+Bouf	4.2.1	pos	example
+Bréif	4.2.1	pos	example
+Buschtaf	4.2.1	pos	example
+Déif	4.2.1	pos	example
+Ribb	4.2.1	pos	example
+ob	4.2.1	pos	example
+Koup	4.2.1	pos	example
+Krop	4.2.1	pos	example
+Rëpp	4.2.1	pos	example
+op	4.2.1	pos	example
+analog	4.2.1	pos	example
+Drog	4.2.1	pos	example
+Dogg	4.2.1	pos	example
+Grog	4.2.1	pos	example
+Bok, Schnok, Tubak	4.2.1	pos	example
+Doud	4.2.1	pos	example
+Lidd	4.2.1	pos	example
+midd	4.2.1	pos	example
+Rad	4.2.1	pos	example
+Ridd	4.2.1	pos	example
+Schmadd, Schmëdd	4.2.1	pos	example
+zolidd	4.2.1	pos	example
+Freed	4.2.1	pos	example
+hie freet	4.2.1	pos	example
+en hybrid Gefier	4.2.1	pos	example
+e morbid Theema	4.2.1	pos	example
+dat	4.2.1	pos	example
+, dout	4.2.1	pos	example
+, et	4.2.1	pos	example
+, Muert	4.2.1	pos	example
+Rat	4.2.1	pos	example
+Lëps	4.2.1	pos	example
+Stëbs	4.2.1	pos	example
+-end	4.2.1	pos	note
+dat entscheedend Argument, lafend Käschten, e spannend Enn, dat andauernd Gesouers, deen enttäuschendste Moment	4.2.1	pos	example
+Stad	4.2.1	pos	bullet
+Stied	4.2.1	pos	bullet
+Stater Bussen, stättesch	4.2.1	pos	bullet
+Bussen	4.2.1	pos	example
+Rued	4.2.1	pos	example
+Rueter Leit	4.2.1	pos	example
+hien ass gelant, e Gesanten, e weltgewanten Typ	4.2.1	pos	example
+Blutt	4.2.2	pos	example
+bluddeg	4.2.2	pos	example
+Bréif	4.2.2	pos	example
+Bréiwer	4.2.2	pos	example
+domat	4.2.2	pos	example
+domadder	4.2.2	pos	example
+dout	4.2.2	pos	example
+doudeg	4.2.2	pos	example
+Drauf	4.2.2	pos	example
+Drauwen	4.2.2	pos	example
+drop	4.2.2	pos	example
+dorobber	4.2.2	pos	example
+gutt	4.2.2	pos	example
+gudden	4.2.2	pos	example
+léif	4.2.2	pos	example
+léiwen	4.2.2	pos	example
+Schmadd	4.2.2	pos	example
+Schmatten	4.2.2	pos	example
+Schmëdd	4.2.2	pos	example
+Schmëtten	4.2.2	pos	example
+ech schreiwen	4.2.2	pos	example
+du schreifs	4.2.2	pos	example
+zolidd	4.2.2	pos	example
+zolitten	4.2.2	pos	example
+doheem, geheien, hannen, hatt, haut, hien, hiewen, Hoer, houschten, Hues	4.3.1	pos	example
+Drot, Gefor, goen, Méi, no, Rei, Réi, Weier, a sou!, o mei!	4.3.1	pos	example
+rh, th, ph	4.3.1	pos	text
+Diphthong, Mittelohrentzündung, Rhythmus, Theater, Theema, Ohn, Rhäin	4.3.1	pos	example
+Anung, berüümt, Bün, Erfarung, Faart, fäeg, Feeler, Fernsee, Fön	4.3.1	pos	example
+Hellseeër, Leem, Seen, Tru, Walen, wärend	4.3.1	pos	example
+Fernseh, Hellseher	4.3.1	pos	example
+Gamma	4.3.2.1	pos	text
+Guy	4.3.2.1	pos	text
+Gäns, Gebläers, Geescht, Geess, gedronk, Geld, giel, Glace, Gourmet	4.3.2.1	pos	example
+gu	4.3.2.1	pos	text
+Guichet, Guide, Guidon	4.3.2.1	pos	example
+Gamma	4.3.2.1	pos	text
+Bagger, Buggi, Doggen, joggen, schmuggelen	4.3.2.1	pos	example
+gg	4.3.2.1	pos	note
+Dogg, Grog	4.3.2.1	pos	example
+Drog, Fig	4.3.2.1	pos	example
+Bigel, Spigel, Vigel	4.3.2.2	pos	example
+Kugel, ondugen, verlugen, Vugel	4.3.2.2	pos	example
+eegen, Fliger; exigent, Logen; Dag, Verlag; Jugend, Lager	4.3.2.2	pos	example
+Gigot, Gilet, Giraff	4.3.2.2	pos	example
+analog, Astrolog, Katalog, Jugend, jugendlech	4.3.2.2	pos	example
+Bierg	4.3.2.3	pos	example
+Buerg	4.3.2.3	pos	example
+Dag	4.3.2.3	pos	example
+Deeg	4.3.2.3	pos	example
+Gaalgen	4.3.2.3	pos	example
+Juegd	4.3.2.3	pos	example
+Rüg	4.3.2.3	pos	example
+Suerg	4.3.2.3	pos	example
+uerg	4.3.2.3	pos	example
+aacht	4.3.2.3	pos	example
+brooch	4.3.2.3	pos	example
+Daach	4.3.2.3	pos	example
+duerch	4.3.2.3	pos	example
+geduecht	4.3.2.3	pos	example
+Hiecht	4.3.2.3	pos	example
+Nuecht	4.3.2.3	pos	example
+Perch	4.3.2.3	pos	example
+Pierch	4.3.2.3	pos	example
+Späicher	4.3.2.3	pos	example
+stiechen	4.3.2.3	pos	example
+Strauch	4.3.2.3	pos	example
+ch	4.3.2.3	pos	bullet
+Ausfluch	4.3.2.3	pos	example
+ewech	4.3.2.3	pos	example
+Fluch	4.3.2.3	pos	example
+Fluch	4.3.2.3	pos	example
+genuch	4.3.2.3	pos	example
+Krich	4.3.2.3	pos	example
+Zich	4.3.2.3	pos	example
+Flug/Flig	4.3.2.3	pos	bullet
+(-)flug(-) (Réckflug, Flugticket)	4.3.2.3	pos	example
+Flughafen	4.3.2.3	pos	text
+Fluchhafen	4.3.2.3	pos	text
+daachen, dat daacht näischt	4.3.2.3	pos	bullet
+-eg	4.3.2.3	pos	text
+-ech	4.3.2.3	pos	text
+-sch	4.3.2.3	pos	text
+-eg: Esseg, Hunneg, Mëtteg, Péiterséileg, Tierteg, Ueleg	4.3.2.3	pos	example
+-ech: Kielech, Läilech	4.3.2.3	pos	example
+Lëlldech, Mëllech, Minnech, Paangech	4.3.2.3	pos	example
+Schaarschtech, Schiertech, Schnappech, Teppech	4.3.2.3	pos	example
+-echt	4.3.2.3	pos	text
+Bäiluecht, Gellecht, Gewunnecht, Heemecht, Uelzecht	4.3.2.3	pos	example
+-eg, -zeg	4.3.2.3	pos	text
+-lech	4.3.2.3	pos	example
+bëlleg, dichteg, drësseg, éiweg, ëmpeg, flappeg, gakeg, gelleg, helleg	4.3.2.3	pos	example
+kannereg, ongemälleg, sëlleg, vëlleg	4.3.2.3	pos	example
+bannenzeg, dabozeg, gielzeg, hannerzeg, zwanzeg	4.3.2.3	pos	example
+aartlech, daierlech, ëffentlech, heemlech	4.3.2.3	pos	example
+kierzlech	4.3.2.3	pos	example
+mëndlech, ländlech	4.3.2.3	pos	example
+eg	4.3.2.3	pos	bullet
+eemoleg, heemeleg	4.3.2.3	pos	example
+séileg	4.3.2.3	pos	example
+-egt	4.3.2.3	pos	bullet
+-echt	4.3.2.3	pos	bullet
+-eg	4.3.2.3	pos	bullet
+-ech	4.3.2.3	pos	bullet
+-esch	4.3.2.3	pos	bullet
+-eg	4.3.2.3	pos	bullet
+-ech	4.3.2.3	pos	bullet
+-esch	4.3.2.3	pos	bullet
+besonnesch, kënschtleresch, lëtzebuergesch	4.3.2.3	pos	example
+-chen	4.3.2.4	pos	text
+-elchen	4.3.2.4	pos	text
+bësschen, Dänzchen, Däppchen, Fiisschen, Haischen, Hieschen	4.3.2.4	pos	example
+Kierfchen, Kleeschen, Schäffchen, Schiefchen, Täertchen, Wirschtchen bësselchen, Béxelchen, Bichelchen, Bréckelchen, Dëschelchen	4.3.2.4	pos	example
+Dichelchen, Fëschelchen, Kaweechelchen, Kichelchen, Mitzelchen	4.3.2.4	pos	example
+Zéngelchen	4.3.2.4	pos	example
+sch	4.3.3.1	pos	text
+fëschen, Fläsch, gekrasch, läschen, Schong, Schoul	4.3.3.1	pos	example
+Heesprénger, Holzspläiter, Spaass, spillen, sprangen, Stack, steif, Stréckel	4.3.3.1	pos	example
+-esch	4.3.3.1	pos	text
+-ers	4.3.3.1	pos	text
+besonnesch, kënschtleresch, komesch, lëtzebuergesch, literaresch, spezifesch, spilleresch	4.3.3.1	pos	example
+Bäckesch, Doktesch, Ligenesch, Meeschtesch, Patréinesch	4.3.3.1	pos	example
+Belsch	4.3.3.1	pos	text
+-sch	4.3.3.1	pos	text
+an der Belsch, e belsche Béier	4.3.3.1	pos	example
+sch	4.3.3.1	pos	text
+ch(e)	4.3.3.1	pos	text
+ge	4.3.3.1	pos	text
+Affiche, Archiven, Chamber, Chauffeur oder Chauffer, Recherche	4.3.3.1	pos	example
+Bagage, Message	4.3.3.1	pos	example
+scht	4.3.3.1	pos	bullet
+scht	4.3.3.1	pos	bullet
+st	4.3.3.1	neg	bullet
+baschten, Buschtaf, Moschtert, Paschtouer	4.3.3.1	pos	example
+Aascht, Frascht, Loscht, Rescht	4.3.3.1	pos	example
+sp	4.3.3.1	pos	bullet
+st	4.3.3.1	pos	bullet
+sch	4.3.3.1	pos	bullet
+Knosp, pësperen, Poopst, Post	4.3.3.1	pos	example
+Fest, Masten, Test	4.3.3.1	pos	example
+Jackett, jalous, jaus, jauwen, jicken, Journal, Jumm, Jupe, Jus, just grujeleg, Knujel, Kujenad	4.3.3.2	pos	example
+Jabel, jatscheleg, Jeeër, jéimeren, jiddereen, joen, Juni	4.3.3.2	pos	example
+juppelen	4.3.3.2	pos	example
+Job, joggen	4.3.3.2	pos	example
+ch	4.3.3.2	pos	text
+sch	4.3.3.2	pos	text
+Piisch	4.3.3.2	pos	example
+Pijen	4.3.3.2	pos	example
+en héicht Haus	4.3.3.2	pos	example
+en héije Bierg	4.3.3.2	pos	example
+déi viischt Dier	4.3.3.2	pos	example
+hie fiert vijenzeg	4.3.3.2	pos	example
+den Job, de Jabel, de Journal	4.3.3.2	pos	example
+amenagéieren, Energie, Regie, Regierung	4.3.3.2	pos	example
+-ier	4.3.3.2	pos	text
+-ille(t)	4.3.3.2	pos	text
+-jee	4.3.3.2	pos	text
+-jen	4.3.3.2	pos	text
+Billjee, Familljen, Keessjee, Pompjee, Schantjen	4.3.3.2	pos	example
+Saaft, sécher, séier, Sonn	4.3.4.1	pos	example
+Sachet, Salon, Service, Souvenir, systematesch	4.3.4.1	pos	example
+Ceinture, Centre	4.3.4.1	pos	example
+Zenter, zerwéieren, Zerwéit, Zerwiss	4.3.4.1	pos	example
+ss	4.3.4.2	pos	text
+ss	4.3.4.2	pos	text
+Dosen, Dusel, haseleg	4.3.4.2	pos	example
+Fielsen, glaseg, Iesel, rosen, Tasen	4.3.4.2	pos	example
+baussen, e bëssen, iessen, Täissel	4.3.4.2	pos	example
+Äis, Dous, eng Aart a Weis, Gas, Glas, lies!, Moos oder Mos, Speis (fir ze bauen), weis!, Wues (Gras)	4.3.4.3	pos	example
+Krees, Präis	4.3.4.3	pos	example
+Dousen, Gasen, Moosen	4.3.4.3	pos	example
+Mooser	4.3.4.3	pos	example
+äiseg, glaseg	4.3.4.3	pos	example
+liesen	4.3.4.3	pos	example
+Krees	4.3.4.3	pos	bullet
+Präis	4.3.4.3	pos	bullet
+-(n)es, -(n)is, -us	4.3.4.3	pos	bullet
+ss	4.3.4.3	pos	bullet
+Kreesser, Präisser	4.3.4.3	pos	example
+Erkenntnesser, Erliefnesser, Erspuernesser, Flantessen, Hännessen	4.3.4.3	pos	example
+Ierbessen, Kabessen, Omessen, Schnurressen	4.3.4.3	pos	example
+Dosissen, Geheimnisser, Gläichnisser	4.3.4.3	pos	example
+Gläichnesser	4.3.4.3	pos	example
+Wallissen Bussen, Globussen, Kaktussen	4.3.4.3	pos	example
+ss	4.3.4.4	pos	text
+ss, ß, chs	4.3.4.4	pos	text
+Faass	4.3.4.4	pos	example
+Gaass	4.3.4.4	pos	example
+Fouss	4.3.4.4	pos	example
+Keess	4.3.4.4	pos	example
+Mooss	4.3.4.4	pos	example
+Preiss	4.3.4.4	pos	example
+Taass	4.3.4.4	pos	example
+grouss	4.3.4.4	pos	example
+séiss	4.3.4.4	pos	example
+wäiss	4.3.4.4	pos	example
+Fluess	4.3.4.4	pos	example
+Fuuss	4.3.4.4	pos	example
+Uess	4.3.4.4	pos	example
+Weess	4.3.4.4	pos	example
+Wuess	4.3.4.4	pos	example
+wuessen	4.3.4.4	pos	example
+ss	4.3.4.4	pos	text
+du bass, Kalbass, lass, Schnëss, Wiss	4.3.4.4	pos	example
+eng Keess	4.3.4.4	pos	example
+Keesen	4.3.4.4	pos	example
+eng Taass	4.3.4.4	pos	example
+Tasen	4.3.4.4	pos	example
+eng Wiss	4.3.4.4	pos	example
+Wisen	4.3.4.4	pos	example
+ss	4.3.4.4	pos	note
+Hien huet Grössenwahn	4.3.4.4	pos	example
+Hien huet Gröössewan	4.3.4.4	pos	example
+Dee klengen Hond ass wierklech süüss	4.3.4.4	pos	example
+tz	4.3.4.5	pos	text
+Bols, eens, Gäns (Pluriel: Gänsen), Hals (Pluriel: Häls oder Hälser) Danz (danzen), Mëlz (ermëlzen), Mënz (Mënzen), Pelz (Pelzer)	4.3.4.5	pos	example
+-ls	4.3.4.5	pos	text
+Boukels – d’Boukelsser Millen, Fiels – d’Fielsser Schlass, Gréiwels – d’Gréiwelsser Barrière, Schëndels – de Schëndelsser Tuerm	4.3.4.5	pos	example
+c, ç	4.3.4.6	pos	text
+Gazette, Sixième	4.3.4.6	pos	example
+Demokratie, Face, Farce, Garçon	4.3.4.6	pos	example
+Zaang, zapen, zappen, Zeck, Zuch	4.3.4.7	pos	example
+tz	4.3.4.7	pos	text
+matzen, Mutz, pëtzen, platzen, Sätz, sëtzen	4.3.4.7	pos	example
+Hospiz, Hospizer, Justiz, Miliz, Milizen, Notiz, Notizen, Noviz, Novizen	4.3.4.7	pos	example
+Gäiz, Kauz, Kaz, Plazen, Reiz, Saz	4.3.4.7	pos	example
+tz	4.3.4.7	pos	text
+du bitz, du botz, du nätz, du schnäiz, du sëtz, du souz, du späiz, du spëtz	4.3.4.7	pos	example
+Patient, Pizza, Ratioun, Razzia, Statioun, Celsius, Cent	4.3.4.7	pos	example
+-tioun	4.3.4.7	pos	note
+Animatioun, Informatioun, Variatioun	4.3.4.7	pos	example
+dräizéng, véierzéng, fofzéng, siechzéng, siwwenzéng, uechtzéng, nonzéng zwanzeg, drësseg, véierzeg, fofzeg, sechzeg	4.3.4.8	pos	example
+siechzeg	4.3.4.8	pos	example
+siwwenzeg	4.3.4.8	pos	example
+achtzeg	4.3.4.8	pos	text
+uechtzeg	4.3.4.8	pos	text
+nonzeg	4.3.4.8	pos	text
+zegmol, zeg Kéieren	4.3.4.8	pos	text
+Akaul, baken, Bok, Kabes, kal	4.3.5.1	pos	example
+ck	4.3.5.1	pos	text
+baken – Bäcker, Sak – Säck	4.3.5.1	pos	example
+qu	4.3.5.1	pos	text
+quaken, Quetsch, quëtschen, quokeleg, gequäält, gequaselt	4.3.5.1	pos	example
+Béchs, Ochs	4.3.5.2	pos	example
+diksen, gierksen, quiiksen	4.3.5.2	pos	example
+Box, Duxall	4.3.5.2	pos	example
+beducksen, mucksen	4.3.5.2	pos	example
+Box, Faxen, féx	4.3.5.3	pos	example
+Aaxestill	4.3.5.3	pos	example
+Cabaret, Cabinet, Caissier, Classeur, Code, Coup	4.3.5.4	pos	bullet
+Ki	4.3.5.4	pos	bullet
+Crayon, Culot	4.3.5.4	pos	example
+qu	4.3.5.4	pos	bullet
+Quai, Quartier, Quiche, Communiqué, Moustique	4.3.5.4	pos	bullet
+cc	4.3.5.4	pos	bullet
+kk	4.3.5.4	pos	bullet
+Akkont, Akkordeon, Occasioun, Occupant	4.3.5.4	pos	bullet
+Okkupant	4.3.5.4	pos	bullet
+acceleréieren, Accent, Accord, Succès	4.3.5.4	pos	example
+ch	4.3.5.4	pos	bullet
+Charakter, Chouer, Chrëschtdag, chronesch	4.3.5.4	pos	bullet
+Cadeau	4.3.5.4	pos	example
+Kaddo, Canapé	4.3.5.4	pos	example
+Kannapee	4.3.5.4	pos	example
+fir	4.3.6.1	pos	example
+– vir	4.3.6.1	pos	example
+féieren	4.3.6.1	pos	example
+– véier	4.3.6.1	pos	example
+fiicht	4.3.6.1	pos	example
+– viischt	4.3.6.1	pos	example
+fillen	4.3.6.1	pos	example
+– vill	4.3.6.1	pos	example
+aktiv – aktiven – aktiivt, brav – braven, Nerv – Nerven – du nervs – si nerven	4.3.6.1	pos	example
+ph	4.3.6.2	pos	text
+Mikrofon	4.3.6.2	pos	example
+Mikrophon, Orthografie	4.3.6.2	pos	example
+Orthographie	4.3.6.2	pos	example
+Avis, Enveloppe, Nouvelle, Revue, vag, Vakanz, Van, Vas, Vëlo, Visa, Vue	4.3.6.3	pos	example
+Diwwi, Nëwwi, Wallis, Wermischel, Zerwéit, Ziwwi	4.3.6.3	pos	example
+en	4.4	pos	text
+du, de, d’	4.4.1	pos	text
+Hatt freet, ob s de muer kënns.	4.4.1	pos	example
+Du kriss, wat s de wëlls.	4.4.1	pos	example
+Et war näischt an der Tut, déi s du mir ginn hues.	4.4.1	pos	example
+Dat Déier, dat s du gesinn hues …	4.4.1	pos	example
+So mer, wat fir e Brëll s de kaaft hues.	4.4.1	pos	example
+s, ss, x	4.4.1	pos	text
+So mir, wéi eng Zoossiss de gär hues.	4.4.1	pos	example
+Ech hätt gär, datt s de kënns. Ech hätt gär, dass de kënns.	4.4.1	pos	example
+Do iers de dech, ier s de dech ëmsinn hues.	4.4.1	pos	example
+e(n)	4.4.2	pos	text
+Mir wëssen net, ob en d’Kanner matkommen.	4.4.2	pos	example
+Et ass wouer, datt e mir elo gläich fortginn.	4.4.2	pos	example
+So mir, wat e(n) si denken.	4.4.2	pos	example
+e(n)	4.4.2	pos	note
+de	4.4.3	pos	text
+se	4.4.3	pos	text
+e(n)	4.4.3	pos	text
+e-	4.4.3	pos	text
+Hues de n e gesinn?	4.4.3	pos	example
+Hues de hie gesinn?	4.4.3	pos	example
+Wéi se n e fonnt haten, war et ze spéit.	4.4.3	pos	example
+Wéi se hie fonnt haten, war et ze spéit.	4.4.3	pos	example
+bannen, baussen, ënner, hanner, iwwer, niewen, tëschen, uechter	4.5	pos	example
+w idder	4.5	pos	text
+bannent dem Haus, baussent der Stad, ënnert dem Dësch, hannert dem Bam, iwwert de Wolleken, niewent him, tëschent de Kanner, uechtert d’Gewan, widdert dem Schaf	4.5	pos	example
+niewent dir, hannert hir, widdert him, tëschent hinnen	4.5	pos	example
+schaffen –	5.1.1	pos	example
+schaff-: du schaffs, hie schafft, mir schaffen	5.1.1	pos	example
+wäschen	5.1.1	pos	example
+du wäschs, hie wäscht, mir wäschen	5.1.1	pos	example
+bäissen – du bäiss	5.1.1	pos	example
+behalen – hie behält	5.1.1	pos	example
+bezuelen – hatt bezilt	5.1.1	pos	example
+falen – si fält	5.1.1	pos	example
+fannen – hie fënnt	5.1.1	pos	example
+gëllen – dat gëllt	5.1.1	pos	example
+liesen – du lies	5.1.1	pos	example
+halen: du häls, dir haalt	5.1.1	pos	example
+falen: du fäls, hie fält, dir faalt	5.1.1	pos	example
+falen: ech falen, du fäls	5.1.1	pos	example
+ech si gefall	5.1.1	pos	example
+huelen: ech huelen, du hëls	5.1.1	pos	example
+dir hutt geholl	5.1.1	pos	example
+kommen: du kënns, ech si komm	5.1.1	pos	example
+du koums, ech kéim	5.1.1	pos	example
+reiden: du reits, hie reit	5.1.1	pos	example
+ech si geridden	5.1.1	pos	example
+wëllen: ech wëll, du wëlls, hie wëllt	5.1.1	pos	example
+ech wéilt	5.1.1	pos	example
+aloggen – du loggs an – ageloggt	5.1.1	pos	example
+chatten – du chatts – gechatt	5.1.1	pos	example
+jobben – du jobbs – gejobbt	5.1.1	pos	example
+scannen – du scanns – gescannt	5.1.1	pos	example
+s, ss, x	5.1.2	pos	text
+du bléis, du schweess, du box, du jäiz, du schwätz, du souz	5.1.2	pos	example
+ginn: du gëss, dir gitt	5.2	pos	example
+goen: du gees, mir ginn	5.2	pos	example
+léien: gelunn	5.2	pos	example
+päifen: hie päift, du hues gepaff	5.2	pos	example
+sinn: du bass, hien ass, ech war, du waars	5.2	pos	example
+stoen: dir stitt, si stinn	5.2	pos	example
+-en	5.2	pos	note
+tt	5.2	pos	note
+fléien: ech fléien, du flitts, dir flitt	5.2	pos	example
+kréien: ech kréien, du kriss, hie kritt	5.2	pos	example
+léien: ech léien, du litts	5.2	pos	example
+zéien: ech zéien, du zitts, hien zitt	5.2	pos	example
+-egen	5.3.1	pos	text
+-egt	5.3.1	pos	text
+bedeelegen – bedeelegt, behäerzegen – behäerzegt	5.3.1	pos	example
+beleidegen – beleidegt, beschëllegen – beschëllegt	5.3.1	pos	example
+bestätegen – bestätegt, erleedegen – erleedegt, follegen – gefollegt	5.3.1	pos	example
+gedëllegen – gedëllegt, geneemegen – geneemegt	5.3.1	pos	example
+iwwerwältegen – iwwerwältegt, péngegen – gepéngegt	5.3.1	pos	example
+priedegen – gepriedegt, vernoléissegen – vernoléissegt	5.3.1	pos	example
+-gen	5.3.1	pos	text
+-gt	5.3.1	pos	text
+besuergen – besuergt, beweegen – beweegt, biergen – gebiergt	5.3.1	pos	example
+prägen – gepräägt, ureegen – ugereegt, wiergen – gewiergt	5.3.1	pos	example
+-chen	5.3.1	pos	text
+-chten	5.3.1	pos	text
+-cht	5.3.1	pos	text
+blechen – geblecht, buchen – gebucht, hauchen – gehaucht	5.3.1	pos	example
+kachen – gekacht, laachen – gelaacht, pechen – gepecht	5.3.1	pos	example
+puchen – gepucht, sichen – gesicht	5.3.1	pos	example
+biichten – gebiicht, fechten – gefecht, flüchten – geflücht	5.3.1	pos	example
+pachten – gepacht, schlichten – geschlicht, uechten – geuecht	5.3.1	pos	example
+uuchten – geuucht, verflichten – verflicht	5.3.1	pos	example
+-cht	5.3.1	pos	text
+-ch	5.3.1	pos	text
+bréngen – bruecht, briechen – gebrach, denken – geduecht	5.3.1	pos	example
+erhéijen – erhéicht, erleeën – erluecht, gläichen – geglach	5.3.1	pos	example
+héijen – gehéicht, krauchen – gekroch, leeën – geluecht	5.3.1	pos	example
+maachen – gemaach, richen – geroch, schläichen – geschlach	5.3.1	pos	example
+spriechen – gesprach, stiechen – gestach, sträichen – gestrach	5.3.1	pos	example
+bestueden: du bestiits, hie bestit, ech si bestuet	5.3.2	pos	example
+geroden: du geréits, hie geréit, geroden	5.3.2	pos	example
+lauden: du lauts, gelaut	5.3.2	pos	example
+lueden: du luets, luet!	5.3.2	pos	example
+reiden: du reits, hie reit, geridden	5.3.2	pos	example
+rieden: du riets, hie riet, geriet	5.3.2	pos	example
+schneiden: du schneits, du hues geschnidden	5.3.2	pos	example
+trieden: du trëts, hien trëtt, getrueden	5.3.2	pos	example
+verbidden: du verbitts, du hues verbueden	5.3.2	pos	example
+sinn: dir sidd	5.3.2	pos	example
+dd	5.3.2	pos	example
+tt	5.3.2	pos	example
+dreiwen: du dreifs, dreif!	5.3.2	pos	example
+gruewen: du gruefs (griefs), gegruewen	5.3.2	pos	example
+schreiwen: du schreifs, schreif!	5.3.2	pos	example
+stierwen	5.3.2	pos	example
+du stierfs	5.3.2	pos	example
+erlaben: du erlaabs, hien erlaabt, ech hunn erlaabt	5.3.2	pos	example
+liesen: du lies, lies!	5.3.2	pos	example
+robben: du robbs, hie robbt, ech si gerobbt	5.3.2	pos	example
+üben: du üübs, hien üübt, ech hu geüübt	5.3.2	pos	example
+weisen: du weis, hie weist, ech hu gewisen	5.3.2	pos	example
+nn	6.1	pos	text
+nn	6.1.1	pos	text
+d, h, n, t	6.1.1	pos	text
+z.	6.1.1	pos	text
+de_ Ball, de_ Gaart, de_ Reen, geschwë_ goen, da gi_ mer, scho_ fuere_ mer, geschloe_ ginn, u_maachen	6.1.1	pos	example
+de 5. Abrëll –	6.1.1	pos	text
+de	6.1.1	pos	text
+5.	6.1.1	pos	text
+nn	6.1.1	pos	bullet
+d, h, n, t	6.1.1	pos	bullet
+den Aarm, den Dapp, den Eck, den Hond, den Ielebou, den Nol, den Ochs, den Tablo, den Uert, den Zuch	6.1.1	pos	example
+den 1. Abrëll, geschwënn un d’Rei kommen	6.1.1	pos	example
+den HIV-Patient, den Nato-Fliger	6.1.1	pos	example
+nn	6.1.1	pos	bullet
+den Yves, den Ysop	6.1.1	pos	example
+nn	6.1.1	pos	text
+de Yannick, e Yak	6.1.1	pos	example
+nn	6.1.1	pos	bullet
+e One-Night-Stand	6.1.1	pos	example
+en Online-Formulaire, en Open-Air-Concert e User	6.1.1	pos	example
+en Undercover-Agent	6.1.1	pos	example
+nn	6.1.1	pos	bullet
+en Jeanshiem, en Job, en Chartervol, den James Bond	6.1.1	pos	example
+en Centime	6.1.1	pos	text
+e Centime	6.1.1	pos	text
+nn	6.1.1	pos	bullet
+den LCTO-Programm, en SNJ-Ausfluch	6.1.1	pos	example
+den sch	6.1.1	pos	example
+Ess-Zee-Ha	6.1.1	pos	example
+de sch	6.1.1	pos	example
+Schof	6.1.1	pos	example
+on-	6.1.2.1	pos	text
+in-	6.1.2.1	pos	text
+onbehollef, ongär, ongemälleg, onméiglech, onpraktesch	6.1.2.1	pos	example
+inkompetent, Invasioun	6.1.2.1	pos	example
+an-, un-	6.1.2.1	pos	note
+androen, akafen, undoen, ukucken	6.1.2.1	pos	example
+-en, -een	6.1.2.2	pos	text
+-äin	6.1.2.2	pos	text
+blann sinn, d’Hänn wäschen, de Gewënn kréien, de Kënn wäschen, eng dënn Biischt, eng ronn Saach, Frënn gesinn, op der Genn Stoppches spillen, um Enn vun der Geschicht	6.1.2.2	pos	example
+an der Pressessioun goen, de Loun kasséieren, d’Konstruktioun war ze schwaach, eng Reunioun preparéieren	6.1.2.2	pos	example
+eng feminin Manéier, eng spontan Ried, immun ginn, maskulin sinn d’Léierin weist eppes, eng modern Geschicht, eng Tréin kräischen, intern kucken	6.1.2.2	pos	example
+bei Bewosstsi bleiwen, nom Ausgesi jugéieren	6.1.2.2	pos	example
+bei Bewosstsinn bleiwen, nom Ausgesinn jugéieren	6.1.2.2	pos	example
+fein, schéin, zwéin	6.1.2.2	pos	exception
+dat si fei Leit, eng schéi Geschicht, zwéi Männer	6.1.2.2	pos	example
+-en	6.1.2.2	pos	text
+e Meedche gesinn, muer de Moie kommen	6.1.2.2	pos	example
+-äin	6.1.2.2	pos	text
+de Wäi gëtt geschwë gedronk, e Schwäi schluechten, Latäi léieren	6.1.2.2	pos	example
+de Wäin gëtt geschwë gedronk, e Schwäin schluechten, Latäin léieren	6.1.2.2	pos	example
+schwäiwëll, Wäifläsch, Wäiglas, Wäibau	6.1.2.2	pos	example
+-een	6.1.2.2	pos	text
+d’Bee wéi hunn	6.1.2.2	pos	example
+d’Been wéi hunn	6.1.2.2	pos	example
+duerch de Ree lafen	6.1.2.2	pos	example
+duerch de Reen lafen	6.1.2.2	pos	example
+e Stee geheien	6.1.2.2	pos	example
+e Steen geheien	6.1.2.2	pos	example
+d’Schlësselbee briechen	6.1.2.2	pos	example
+d’Schlësselbeen briechen	6.1.2.2	pos	example
+Reemantel, Steekaul, Steekoup, Steemetzer	6.1.2.2	pos	example
+een	6.1.2.2	pos	bullet
+an eng Veen stiechen, engem eng Zeen maachen, en neie Geen fannen, mat de Ween fueren	6.1.2.2	pos	example
+Afennoss, Bierebam, Drëppeglas, Kréiena, Zoppeläffel, Zoppenteller	6.1.2.3	pos	example
+-schaft	6.1.2.3	pos	note
+Eegenschaft, Machenschaft, Wëssenschaft	6.1.2.3	pos	example
+Mir wollte froen, wéini et ufänkt.	6.1.2.4	pos	example
+Hie wollt net matgoen, ma dunn huet e sech et anescht iwwerluecht.	6.1.2.4	pos	example
+Kucken, wéi et virugeet. Lafen, bis et net méi geet.	6.1.2.4	pos	example
+Et goufen	6.1.2.4	pos	example
+graff gesinn – just véier Studiefächer.	6.1.2.4	pos	example
+Ech verkafen en (kaum benotzten) Computer.	6.1.2.4	pos	example
+Kolleeginnen/Kolleegen	6.1.2.4	pos	example
+Dat Vun-der-Hand-an-de-Mond-Liewe geet mer net.	6.1.2.5	pos	example
+d’Käschten-Notze-Berechnung, en Dräi-Komponente-Pech	6.1.2.5	pos	example
+e Kapp-u-Kapp-Rennen, en Zwee-Phase-Modell	6.1.2.5	pos	example
+Orangen- an Äppeljus, Orangë- plus Äppelgebeess	6.1.2.5	pos	example
+Orangen-, ma keen Hammbiersgebeess	6.1.2.5	pos	example
+Et nennt een hien de „Kropemann“.	6.1.2.6	pos	example
+Dunn huet hie „Good morning!“ gesot.	6.1.2.6	pos	example
+Dat do war e	6.1.2.6	pos	example
+Feeler!	6.1.2.6	pos	example
+D’Verb „béien“ kritt e	6.1.2.6	pos	example
+am Partizip, d’Verb „däerfen“ kritt dat net.	6.1.2.6	pos	example
+D’Wierder „bléien“ a „fléien“ maachen e schéine Reim.	6.1.2.6	pos	example
+Mir mussen dat MATENEEN maachen.	6.1.2.6	pos	example
+si, se, säin, seng, sech	6.2.1	pos	text
+sou	6.2.1	pos	text
+hu si	6.2.1	pos	example
+hunn si, vu senger Plaz	6.2.1	pos	example
+vun senger Plaz	6.2.1	pos	example
+Wëssen Kënnen Wëllen	6.2.2	pos	example
+Eis #Eemaischen war dëst Joer e vollen Erfolleg!	6.2.2	pos	example
+do ass all Kand a Këndchen	6.2.2	pos	example
+beim Fuesechsliddche frou	6.2.2	pos	example
+D’Madamm Rinnen kënnt méi spéit. De Ruben muss éischter goen.	6.3	pos	example
+Bahlsenkichelcher, Ralph-Lauren-Kleeder	6.3	pos	example
+D’Jange kréien e Bistro. Bei Schmitte gëtt geschafft. Et ass de Schmitte Guy, de Schmitten hire Guy.	6.3	pos	example
+d’Hemessemillen	6.3	pos	example
+Hemessen hir Millen, der Famill Hemes hir Millen	6.3	pos	example
+Röntgenstralen	6.3	pos	note
+Rëntgestralen	6.3	pos	note
+Ech muss an d’Rëntge goen.	6.3	pos	example
+Ech muss mech rëntge loossen.	6.3	pos	example
+-en	6.4	pos	text
+an Asie wunnen, sech an Asien auskennen	6.4	pos	example
+an Italie fueren, an Italien areesen	6.4	pos	example
+um Schwaarze Mier, am Indeschen Ozean	6.4	pos	example
+Spuenierees, Pyrenäenduerf	6.4	pos	example
+an d’Alpe goen, d’Ardennen entdecken	6.4	pos	example
+zu Lëntge brennt et	6.4	pos	example
+zu Lëntgen brennt et	6.4	pos	example
+zu Néngse schéngt d’Sonn	6.4	pos	example
+zu Néngsen schéngt d’Sonn	6.4	pos	example
+op Münche fueren	6.4	pos	example
+op München fueren	6.4	pos	example
+-en	6.4	pos	bullet
+zu Caen schlofen, op Rouen fueren, zu Wien raschten	6.4	pos	example
+London war ëmmer d’Haaptstad vun England	6.4	pos	example
+Zu Berlin lieft et sech gutt.	6.4	pos	example
+Griichenland	6.4	pos	bullet
+Griicheland	6.4	pos	bullet
+Boîte	7.1	pos	text
+Timber	7.1	pos	text
+Abus, Accent, Accident, Accord, Concours, Courage, Dictionnaire	7.1	pos	example
+Ministère, Trottoir, Jeep, Lobby, Party, Weekend	7.1	pos	example
+d’accord (sinn), par défaut, par rapport, by the way, on the road	7.1	pos	example
+Dat ass bottom-up	7.1	pos	example
+eng Bottom-up-Approche	7.1	pos	example
+-(e)n	7.1	pos	text
+-er	7.1	pos	text
+Accidenter, Concoursen, Jeepen, Partyen, Trottoiren	7.1	pos	example
+Büfdeck	7.1	pos	example
+Bifdeck	7.1	pos	example
+Diwwi, Fissi, Jelli, Koseng, Monnonk	7.1	pos	example
+Schantjen, Tëlee, Vëlo, Wallis, zerwéieren, Ziwwi	7.1	pos	example
+Accès, Boîte, Entrée, Foire	7.2.1	pos	example
+Deputéierten, Ensembel, Timber	7.2.1	pos	example
+Damm, effikass, Ekipp, Mull, Retusch	7.2.1	pos	example
+Dame, efficace, Equipe, Moule, Retouche	7.2.1	pos	example
+Capacitéit	7.2.1	pos	example
+Kapazitéit, coordonéiert	7.2.1	pos	example
+koordinéiert, fonctionéieren	7.2.1	pos	example
+funktionéieren	7.2.1	pos	example
+Diwwi, Forschett, Fotell, Keess, Klautjen, Wallis, Wermischel	7.2.1	pos	example
+Barrière, Bréifboîte, Sonnecrème, Salle à manger	7.2.2	pos	example
+Decisioun, Defilé, Epicerie, resuméieren, Reunioun	7.2.2	pos	example
+Employé, Musée, Conseil d’État, Directeur général, Saumon fumé	7.2.2	pos	example
+ie	7.2.3	pos	text
+ue	7.2.3	pos	text
+Poesie, Regie, Avenue, Lycée, Renommée	7.2.3	pos	example
+Avantage, Baisse, beige, Chaîne, Chance, Depannage, Documentaire	7.2.3	pos	example
+Facture, Fiduciaire, Force, Garage, Laboratoire, large, Libraire	7.2.3	pos	example
+Mayonnaise, Necessaire, Plainte, Punaise, Remise, Ressource	7.2.3	pos	example
+Revanche, Serveuse, Service, Suite, Tâche, vierge, Vocabulaire	7.2.3	pos	example
+Bott, Gripp, Initiativ, Majorett, Mall, Mirabell, Napp, Oliv, Operett	7.2.3	pos	example
+Passerell, Phas, Pist, Pyramid, Tax, Tirett, Vitess, Zon	7.2.3	pos	example
+Agraff, Damm, Etapp, Finall, Limitt, Mandarinn, Marinn, Originn, Paraff	7.2.3	pos	example
+Primm, Sardinn, Vitaminn	7.2.3	pos	example
+Barriär, Domän, Fassad, Vestiär, Veterinär	7.2.3	pos	example
+Barrière, Domaine, Façade, Vestiaire, Veterinaire	7.2.3	pos	example
+Barrièrë réckelen, Façadë renovéieren, d’Pertë festhalen, Poubellë réckelen	7.2.3	pos	example
+Boîtte verkafen, Mandarinne kafen, Punaisse benotzen	7.2.3	pos	example
+en	7.2.4.1	pos	text
+er	7.2.4.1	pos	text
+Accidenter, Approchen, Bijouen, Coursen, Oliven, Orangen, Trottoiren	7.2.4.1	pos	example
+Amicale – Amicallen, Coupe – Couppen, Doute – Doutten	7.2.4.2	pos	example
+Equipe – Equippen, Flic – Flicken, Toile – Toillen	7.2.4.2	pos	example
+Bourse – Bourssen, Course – Courssen	7.2.4.2	pos	example
+eng Glace, zwou Glacen	7.2.4.2	pos	example
+eng Moyenne, zwou Moyennen	7.2.4.2	pos	example
+Fait	7.2.4.2	pos	bullet
+Faitten	7.2.4.2	pos	bullet
+Faiten	7.2.4.2	pos	bullet
+Cours	7.2.4.2	pos	example
+Coursen	7.2.4.2	pos	example
+Cour	7.2.4.2	pos	example
+Couren	7.2.4.2	pos	example
+Course – Courssen	7.2.4.2	pos	example
+eng Kuer – e puer Kueren	7.2.4.2	pos	example
+ee Coup, zwee Ki	7.2.4.3	pos	example
+déi Faarf ass bordeaux, mat senge bordoosse Schong	7.2.4.3	pos	example
+een Tour um Vëlo, zwee Tier	7.2.4.3	pos	example
+den Auto kënnt op Touren	7.2.4.3	pos	example
+-en	7.2.4.4	pos	bullet
+Vill Caféen hunn owes op; déi meescht Caféë sinn Hellegowend zou.	7.2.4.4	pos	example
+Citéen hu meeschtens keen Zentrum; am ganze Land gi Citéë gebaut.	7.2.4.4	pos	example
+Ech leeën d’Corrigéen derbäi; hien huet d’Corrigéë gekuckt.	7.2.4.4	pos	example
+Ech halen op meng Congéen. Meng lescht Congéë ware flott.	7.2.4.4	pos	example
+Mir hu vill Chargéen am Lycée. D’Chargéë kommen all erëm.	7.2.4.4	pos	example
+-ée	7.2.4.4	pos	bullet
+-ën	7.2.4.4	pos	bullet
+Chargée – Chargéeën, Lycée – Lycéeën, Musée – Muséeën	7.2.4.4	pos	example
+Chargéeë sichen, Lycéeë bauen, Muséeë besichen	7.2.4.4	pos	example
+d’Ficelle schneiden, d’Ficellë schneiden	7.2.4.4	pos	example
+d’Poubelle réckelen, d’Poubellë réckelen	7.2.4.4	pos	example
+-ë(n)	7.2.4.4	pos	bullet
+ee Cours – zwee Coursen, zwee Coursë beleeën	7.2.4.4	pos	example
+eng Course – zwou Courssen, zwou Coursse gewannen	7.2.4.4	pos	example
+ee Cousin – zwee Cousinen, zwee Cousinë besiche goen	7.2.4.4	pos	example
+eng Cousine – zwou Cousineën, zwou Cousineë besiche goen	7.2.4.4	pos	example
+een Devis – zwee Devisen, vill Devisë schreiwen	7.2.4.4	pos	example
+eng Devise – zwou Deviseën, vill Deviseë kafen	7.2.4.4	pos	example
+en Enseignant – zwee Enseignanten, zwee Enseignantë kommen eng Enseignante – zwou Enseignanteën, zwou Enseignanteë kommen	7.2.4.4	pos	example
+beige: e beigë Pullover, e beiget Hiem	7.2.4.5	pos	example
+large: e largë Korrekter, e larget Verbesseren	7.2.4.5	pos	example
+louche: e louchë Quartier, e louchet Haus	7.2.4.5	pos	example
+orange: en orangë Mantel, en oranget Stéck Stoff	7.2.4.5	pos	example
+vierge: e viergë Casier, e vierget Virliewen	7.2.4.5	pos	example
+Assemblée générale, Assistante sociale, Avant-première	7.2.5	pos	example
+Chargé de cours, Chef-d’oeuvre, Dernier cri, Eau de toilette	7.2.5	pos	example
+Grande surface, Maître d’hôtel, Métier à risque, Nouvelle cuisine	7.2.5	pos	example
+Boeuf-bourguignons-Zooss, Chauffe-plats-Kabel, Passe-vites-Sift	7.2.5	pos	example
+Quiche-lorraines-Stéckelcher, Vol-au-vents-Deeg	7.2.5	pos	example
+Grand-Duc, Grand-Duché	7.2.5	pos	exception
+Grande-Duchesse	7.2.5	pos	exception
+Grand-Duc	7.2.5	pos	exception
+ck	7.2.5	pos	exception
+d’Grand-Ducen alleguer, all d’Grand-Duce vu Lëtzebuerg	7.2.5	pos	example
+État	7.2.6	pos	bullet
+Avant-garde – Avant-garden, Avant-première – Avant-premièren	7.2.6	pos	example
+Bain-marie – Bain-marien, Cache-pot – Cache-poten	7.2.6	pos	example
+Carte blanche – Carte-blanchen, Carte d’identité – Carte-d’identitéen	7.2.6	pos	example
+Chargé de cours – Chargé-de-coursen, Chef-d’oeuvre – Chef-d’oeuvren	7.2.6	pos	example
+Coup d’État – Coup-d’Étaten, Dernier cri – Dernier-crien	7.2.6	pos	example
+Eau de toilette – Eau-de-toiletten, Eau-de-vie – Eau-de-vien, Faux pas – Faux-pasen, Faux-filet – Faux-fileten	7.2.6	pos	example
+Grande surface – Grande-surfacen, Haute couture – Haute-couturen	7.2.6	pos	example
+Ménage à trois – Ménage-à-troisen, Point de vue – Point-de-vuen	7.2.6	pos	example
+Sans-abri – Sans-abrien, Tête-à-tête – Tête-à-têten	7.2.6	pos	example
+Trait d’union – Trait-d’unionen, Va-et-vient – Va-et-vienten	7.2.6	pos	example
+Agent public – Agent-publicken	7.2.6	pos	example
+Assemblée générale – Assemblée-générallen	7.2.6	pos	example
+Assistante sociale – Assistante-sociallen	7.2.6	pos	example
+Atelier collectif – Atelier-collectiffen	7.2.6	pos	example
+Femme fatale – Femme-fatallen	7.2.6	pos	example
+Maître d’hôtel	7.2.6	pos	example
+Maître-d’hôtellen	7.2.6	pos	example
+Procès-verbal	7.2.6	pos	example
+Procès-verballen	7.2.6	pos	example
+Avant-gardë gesinn, Carte-blanchë schreiwen, Chaise-longuë kafen, Point-de-vuë bewäerten, Tête-à-têtë beobachten	7.2.6	pos	example
+e Repas sur roues kréien, Repas-sur-rouen ubidden, Repas-sur-rouë féieren	7.2.6	pos	example
+vill Délits de grande vitesse, zwee Règlements grand-ducaux	7.2.6	pos	example
+busy, Computer, cool, online, Pool, Smiley, tricky	7.3.1	pos	example
+-en	7.3.1	pos	text
+-er	7.3.1	pos	text
+Container – Containeren, Weekend – Weekender	7.3.1	pos	example
+Fan – Fannen, Hit – Hitten, Job – Jobben, Shop – Shoppen, Slip – Slippen	7.3.1	pos	example
+Club	7.3.1	pos	text
+Clubben	7.3.1	pos	text
+Clibb	7.3.1	pos	text
+Comic – Comicken, Donut – Donutten, Laptop – Laptoppen	7.3.1	pos	example
+vill Comics, vill Fans, vill Hits, vill Jobs	7.3.1	pos	example
+Fakë fannen, Likë kréien, Milkshakë maachen, Spikë kafen	7.3.1	pos	example
+-t	7.3.2	pos	bullet
+coachen	7.3.2	pos	example
+gecoacht	7.3.2	pos	example
+downloaden	7.3.2	pos	example
+– gedownloat	7.3.2	pos	example
+du downloats, hien downloat	7.3.2	pos	example
+hosten	7.3.2	pos	example
+– gehost	7.3.2	pos	example
+printen	7.3.2	pos	example
+– geprint	7.3.2	pos	example
+rocken	7.3.2	pos	example
+– gerockt	7.3.2	pos	example
+triggeren	7.3.2	pos	example
+. to trigger	7.3.2	pos	example
+– getriggert	7.3.2	pos	example
+zoomen	7.3.2	pos	example
+– gezoomt	7.3.2	pos	example
+adden	7.3.2	pos	text
+dd	7.3.2	pos	text
+adden	7.3.2	pos	example
+– du adds, hien add, ech hu geadd	7.3.2	pos	example
+-yen	7.3.2	pos	bullet
+applyen, denyen, replyen	7.3.2	pos	bullet
+-yt	7.3.2	pos	bullet
+-ied	7.3.2	pos	bullet
+replyen	7.3.2	pos	example
+– replyt / replied,	7.3.2	pos	example
+du replys, hie replyt	7.3.2	pos	example
+-et	7.3.2	pos	bullet
+-ed	7.3.2	pos	bullet
+badgen	7.3.2	pos	example
+– gebadget / gebadged	7.3.2	pos	example
+faken	7.3.2	pos	example
+– gefaket / gefaked	7.3.2	pos	example
+liken	7.3.2	pos	example
+– geliket / geliked	7.3.2	pos	example
+skypen	7.3.2	pos	example
+– geskypet / geskyped	7.3.2	pos	example
+faken – dir faket	7.3.2	pos	example
+liken – du likes	7.3.2	pos	example
+timen – hien timet	7.3.2	pos	example
+hiden	7.3.2	pos	example
+– gehide	7.3.2	pos	example
+upgraden	7.3.2	pos	example
+– geupgrade	7.3.2	pos	example
+muten	7.3.2	pos	example
+– gemute	7.3.2	pos	example
+skaten	7.3.2	pos	example
+– geskate	7.3.2	pos	example
+updaten	7.3.2	pos	example
+– geupdate	7.3.2	pos	example
+hiden	7.3.2	pos	example
+– du hides	7.3.2	pos	example
+muten	7.3.2	pos	example
+– du mutes	7.3.2	pos	example
+skaten	7.3.2	pos	example
+– hie skate	7.3.2	pos	example
+en	7.3.2	pos	bullet
+Beim Badgë gouf et e Problem.	7.3.2	pos	example
+Si fakë bestëmmt.	7.3.2	pos	example
+Ech hidë mol déi Kolonn.	7.3.2	pos	example
+Likë mer dat?	7.3.2	pos	example
+Skatë mer hei erof?	7.3.2	pos	example
+-el	7.3.2	pos	bullet
+-el	7.3.2	pos	bullet
+-le	7.3.2	pos	bullet
+cancelen	7.3.2	pos	example
+– gecancelt	7.3.2	pos	example
+googelen	7.3.2	pos	example
+– du googels	7.3.2	pos	example
+handelen	7.3.2	pos	example
+– du handels	7.3.2	pos	example
+puzzelen	7.3.2	pos	example
+– hatt puzzelt	7.3.2	pos	example
+upcycelen	7.3.2	pos	example
+– upgecycelt	7.3.2	pos	example
+Bestseller, Bigband, Blackout, Countdown, Designerkleed, Fitnesszenter	7.3.3	pos	example
+Headset, Jackpot, Knowhow, Smalltalk, Stuntman, Taskforce	7.3.3	pos	example
+Bigbanden	7.3.3	pos	example
+Bigbands, Smalltalken	7.3.3	pos	example
+Smalltalks	7.3.3	pos	example
+Startup	7.3.3	pos	example
+Startuppen	7.3.3	pos	example
+Startups	7.3.3	pos	example
+Start-up	7.3.3	pos	example
+Start-uppen	7.3.3	pos	example
+Start-ups	7.3.3	pos	example
+High Society, Public Relations	7.3.3	pos	example
+Los Angeles, New York	7.3.3	pos	example
+New-York-Marathon	7.3.3	pos	example
+Desktoppublishing	7.3.3	pos	example
+Desktop-Publishing, Desktoppublishing-Programm	7.3.3	pos	example
+Desktop-Publishing-Programm	7.3.3	pos	example
+Low-Budget-Film, Nordic-Walking-Bengelen, Park-and-ride, Plug-and-play-Funktioun, Prepaid-Kaart, Software-Entwécklung	7.3.3	pos	example
+Trial-and-Error-Method, Weekendhaischen	7.3.3	pos	example
+Weekend-Haischen	7.3.3	pos	example
+e One-Night-Stand, seng Online-Presenz	7.3.3	pos	example
+si sinn online	7.3.3	pos	example
+(-)pre-/(-)prä-	7.4	pos	text
+(-)ped(-)/(-)päd(-)	7.4	pos	text
+Enzyklopedie / Enzyklopädie, Logoped(in) / Logopäd(in)	7.4	pos	example
+orthopedesch / orthopädesch, pedagogesch / pädagogesch	7.4	pos	example
+Pedophilie / Pädophilie, pregnant / prägnant, Preparat / Präparat	7.4	pos	example
+Prepositioun / Präpositioun, present / präsent	7.4	pos	example
+President(in) / Präsident(in), preventiv / präventiv	7.4	pos	example
+Prezedenzfall / Präzedenzfall, preziséieren / präziséieren, representativ / repräsentativ	7.4	pos	example
+Expeditioun	7.4	pos	example
+torpedéieren	7.4	pos	example
+th, ch	7.4	pos	text
+rh	7.4	pos	text
+apathesch, Athleet, Biathlon, Bibliothéik, Chouer, Chrëschtdag	7.4	pos	example
+Diskothéik, Hypothéik, Orthopedie, Panther, pathologesch, Pathos	7.4	pos	example
+Python, Rhapsodie, Rhesusaf, Rhesusfaktor, Rhetorik, Rheuma	7.4	pos	example
+Rhythmus, Sympathie, Theater, Thees, Theema, Théik, Theologie	7.4	pos	example
+thermesch, Thermometer, Thermosfläsch	7.4	pos	example
+ph	7.4	pos	text
+ph	7.4	pos	bullet
+Atmosphär, Klaustrophobie, Metapher, Philosophie, Physik	7.4	pos	example
+(-)graf(-)/(-)graph(-)	7.4	pos	bullet
+-fon/-phon	7.4	pos	bullet
+Biografie / Biographie, Choreografie / Choreographie	7.4	pos	example
+geografesch / geographesch, germanofon / germanophon, Mikrofon / Mikrophon, Orthografie / Orthographie	7.4	pos	example
+fon-/phon-	7.4	pos	text
+ph	7.4	pos	text
+Phoneetik / Foneetik, phonologesch / fonologesch	7.4	pos	example
+ph	7.4	pos	note
+francophone, e Graphique.	7.4	pos	note
+Delfin, Fantasie, Foto	7.4	pos	example
+a, i, o, u	7.4	pos	note
+ph	7.4	pos	note
+th	7.4	pos	note
+Stroph	7.4	pos	text
+apathesch	7.4	pos	text
+säin Alter ego, eng Conditio sine qua non, e Curriculum vitae	7.5	pos	example
+en CV	7.5	pos	example
+, en Deus ex machina, eng Dolce vita, eng Terra incognita	7.5	pos	example
+eng De-facto-Bezéiung	7.5	pos	example
+seng Alter-egoen, vill Conditio-sine-qua-nonnen, Curriculum-vitaeë froen, De-facto-Bezéiungen	7.5	pos	example
+Den Haag, Las Palmas, Leonardo da Vinci	7.5	pos	example
+all d’Leonardo-da-Vinci-Wierker	7.5	pos	example
+Dat war de facto déi falsch Decisioun.	7.5	pos	example
+Si goufen in flagranti erwëscht.	7.5	pos	example
+Blëtz, Buch, Büro, Fläiss, Geschicht, Haus, Himmel, Kaffi, Paangech, Philosophie, Romantik, Taass	8.1.1	pos	example
+Bläistëft, Geschichtsbuch, Héichhaus, Kaffistaass, Schéiferhond, Schnellzuch	8.1.1	pos	example
+D’Schreiwen ass him ëmmer liichtgefall. D’Ofrappe war an	8.1.2	pos	example
+Nullkommanäischt geschitt. Iwwert dem Lafen ass e gefall. Ech kréien dech un d’Schaffen. Beim Plënneren ass him eppes op de Fouss gefall.	8.1.2	pos	example
+Hien huet ugefaange mam Schaffen.	8.1.2	pos	example
+mat	8.1.2	pos	note
+mat	8.1.2	pos	note
+ze	8.1.2	pos	note
+Hien huet ugefaange mat schaffen.	8.1.2	pos	example
+Hien huet ugefaangen ze schaffen.	8.1.2	pos	example
+Beim Autofuere soll een net telefonéieren.	8.1.2	pos	example
+Ech hu wierklech keng Anung vum Broutbaken.	8.1.2	pos	example
+e bloe Rack – dat Blot am Hannergrond, e gudde Patt – dat Gutt dodrun	8.1.3	pos	example
+eng gekachten Ham	8.1.3	pos	example
+eppes selwer Gekachtes	8.1.3	pos	example
+Ales an Neies, dat kann och zesummepassen.	8.1.3	pos	example
+eppes op Lëtzebuergesch soen	8.1.3	pos	example
+dat Lescht, wat ze maachen ass; zu gudder Lescht; ech hunn hien an der Lescht dacks gesinn	8.1.3	pos	example
+fir d’éischt; ech hunn hien d’lescht/deslescht gesinn; et ass fir d’lescht	8.1.3	pos	example
+dat Ganzt, am grousse Ganzen	8.1.3	pos	example
+eppes am Gudde reegelen, am Gudde léisen	8.1.3	pos	example
+am Weesentlechen, am Allgemengen	8.1.3	pos	example
+vu Klengem un, zanter Laangem, bei Wäitem, bis op Weideres, ouni Weideres, vu Wäitem	8.1.3	pos	example
+vun Noem a vu Wäitem	8.1.3	pos	example
+vun no a vu wäit	8.1.3	pos	example
+wéineg, vill, näischt	8.1.3	pos	text
+eppes	8.1.3	pos	text
+eppes Geléintes, eppes Gemooltes, eppes Verbranntes	8.1.3	pos	example
+Eppes Neits	8.1.3	pos	example
+eppes Neies	8.1.3	pos	example
+ass ëmmer spannend.	8.1.3	pos	example
+De Professer hat wéineg Guddes iwwer seng Studenten ze soen.	8.1.3	pos	example
+Et ass näischt Wichteges gesot ginn.	8.1.3	pos	example
+Jonk an Al hu matgemaach; dat betrëfft Aarm a Räich	8.1.3	pos	example
+Mir waren op dat Schlëmmst gefaasst. Dat Einfachst ass, wa mir hie gewäerde loossen. Et wier fir hien dat Bescht, wann en d’Schoul géif wiesselen. Hien ass Besseres gewinnt. Et sinn ëmmer déi méi Schéin	8.1.3	pos	example
+déi gewielt ginn.	8.1.3	pos	example
+am	8.1.3	pos	text
+Et wier am beschten, wann dir all matkéimt. Si ginn am léifste bei de Pit an d’Anne iessen. Hir Feiere sinn ëmmer am flottsten.	8.1.3	pos	example
+duerch déck an dënn, iwwer kuerz oder laang, vu kleng op, vu privat ze verkafen	8.1.3	pos	example
+Hien huet mir den Du ugebueden (hie sot, mir sollten eis duzen).	8.1.4	pos	example
+An dëser Saach gëtt et keen Entweeder-oder. Net de Wat ass hei	8.1.4	pos	example
+wichteg, ma de Firwat. Mir soen Iech am Viraus Bescheed.	8.1.4	pos	example
+all, alles, allem, aner, anescht	8.1.4	pos	text
+Dat weess awer elo wierklech jiddereen. Si hunn et all gewosst. Dat war alles vill ze schwéier. Déi meescht hunn et gepackt. Virun allem … (deen) aneren, (déi) aner, dat ass net senges, ech hu mäint gesot	8.1.4	pos	example
+Ënner anerem hu mer och iwwer déi nei Strukturen diskutéiert.	8.1.4	pos	example
+e Burnout-Syndrom, keen Entweeder-oder, den Helleg-Geescht-Tunnel, eng Mozart-Symphonie	8.1.5	pos	example
+a Bezuch op, zu Bierg stoen, zu Enn goen, am Fong, a Fro stellen, zu Gonschte vun, op Grond vun	8.2	pos	example
+opgrond vun	8.2	pos	example
+, vun Haus aus, mat Hëllef vun	8.2	pos	example
+mathëllef vun	8.2	pos	example
+, a Kaf huelen, zu Laaschte vun, zu Land, zur Nout, Schold hunn	8.2	pos	example
+Recht ginn, Recht hunn, Recht kréien, Onrecht hunn	8.2	pos	example
+Uecht ginn, Uecht doen, do gutt Uecht!, sech an Uecht huelen, eppes ausser Uecht loossen	8.2	pos	example
+sinn	8.2	pos	text
+si si schold drun, ech sinn es leed(s)	8.2	pos	example
+ech si faillite, well ech Faillite gemaach hunn	8.2	pos	example
+rieds	8.2	pos	text
+rieden	8.2	pos	text
+wëlles	8.2	pos	text
+opweises	8.2	pos	text
+rieds goen, rieds hunn, rieds sinn	8.2	pos	example
+wëlles hunn, wëlles sinn	8.2	pos	example
+net vill opweises hunn	8.2	pos	example
+Merci, Äddi, Moien, Jo	8.2	pos	text
+Nee	8.2	pos	text
+Schreif hinnen en décke Merci.	8.2	pos	example
+Hues du dann elo mat Jo gestëmmt oder bass de beim Nee bliwwen?	8.2	pos	example
+Äddi/äddi soen, Merci/merci soen, Jo/jo soen, villmools Merci/merci	8.2	pos	example
+so hinne Moien/moien	8.2	pos	example
+Mir soen Iech villmools Merci/merci fir Äre léiwen Don!	8.2	pos	example
+Ech muss direkt nees goen, dofir Moien/moien an Äddi/äddi!	8.2	pos	example
+A, Salut/salut!	8.2	pos	example
+gëschter	8.3	pos	text
+virgëschter	8.3	pos	text
+gëschter Mëtten, gëschter Mueren, virgëschter Owend	8.3	pos	example
+haut, muer	8.3	pos	text
+iwwermuer	8.3	pos	text
+haut de Mëtteg, muer de Mëtteg, haut de Mueren, iwwermuer den Owend	8.3	pos	example
+de Méindeg, de Méinden, e Méindeg de Moien, um Méindegmoien	8.3	pos	example
+-s	8.3	pos	text
+Mir waren owes nach een huelen. Mir gi sonndes moies spadséieren. Ech si méindes ëmmer midd. Ech ginn donneschdes mëttes ëmmer lafen.	8.3	pos	example
+Äre Rendez-vous ass dënschdes, de véierten Abrëll.	8.3	pos	example
+gëschter, haut, hënt, iwwermuer, muer, virgëschter	8.3	pos	text
+Dat geet net vun haut op muer. D’Solden hu gëschter ugefaangen. Wat freeën ech mech op muer! Ech hunn hënt gutt geschlof.	8.3	pos	example
+Maach mer keen X fir en U vir! Wien A seet, muss och B soen.	8.4	pos	example
+D’ABC als Alphabet.	8.4	pos	example
+No a, b an c kënnt d.	8.4	pos	example
+de Punkt um i	8.4	pos	text
+de schife Stréch am Rondel vum Q	8.4	pos	example
+Meeschtens kënnt eng en-Endung am Pluriel.	8.4	pos	example
+Am Lëtzebuergesche gëtt et Wierder mat véier oder fënnef e-en	8.4	pos	example
+hannereneen.	8.4	pos	example
+„Laang“ gëtt mat zwee a-e geschriwwen.	8.4	pos	example
+m. (männlech), w. (weiblech), d. (divers), r. (riets), S. (Säit)	8.5.1	pos	example
+Art. (Artikel – Gesetz), ca. (zirka), d. h. (dat heescht), Jh. (Joerhonnert), wgl. (wannechgelift), z. B. (zum Beispill)	8.5.1	pos	example
+a. d. R. (an der Reegel), allg. (allgemeng), Dr. (Dokter), ë. a. (ënner anerem), evtl. (eventuell), Nr. (Nummer), Tel. (Telefonsnummer)	8.5.1	pos	example
+asw. (a sou weider / an esou weider), etc. (et cetera)	8.5.1	pos	example
+g (Gramm), kg (Kilo oder Kilogramm), t (Tonn), l (Liter)	8.5.1	pos	example
+m (Meter), cm (Zentimeter), km (Kilometer), qm	8.5.1	pos	example
+m² (Quadratmeter, Meterkaree)	8.5.1	pos	example
+MHz (Megahertz), V (Volt), W (Watt)	8.5.1	pos	example
+Cl (Chlor), O (Sauerstoff), S (Schwiefel)	8.5.1	pos	example
+N (Norden), SO (Südosten)	8.5.1	pos	example
+min (Minutt), s (Sekonn), h (Stonn),	8.5.1	pos	example
+Min. (Minutt), Sek. (Sekonn), St. (Stonn)	8.5.1	pos	example
+3 cm, 5 EUR, 5 €, 10 %	8.5.1	pos	example
+5'	8.5.1	pos	example
+Minutten	8.5.1	pos	example
+5"	8.5.1	pos	example
+Sekonnen, Zoll	8.5.1	pos	example
+5°	8.5.1	pos	text
+5 °C, 5 °F	8.5.1	pos	text
+Akku, Auto, Bus (Autobus), Cello, Deo, Disko, Foto (Fotografie), Krimi, Proff (Professer), Uni	8.5.1	pos	example
+Aids, Laser, Nato, Pin, Ufo, Unesco, Uno	8.5.1	pos	example
+WM	8.5.1	pos	bullet
+DVD	8.5.1	pos	bullet
+ASBL, DVD, EU, EZB, PS, UKW, UN, WM	8.5.1	pos	example
+-en	8.5.1	pos	text
+ASBLen, CDen, DVDen, PDFen, WMen	8.5.1	pos	example
+vill CDe kafen	8.5.1	pos	example
+CFL, EU, INL, RTL	8.5.1	pos	example
+JPEG (Joint photographic experts group)	8.5.1	pos	example
+Covid-19 / COVID-19, Nato / NATO, Unesco / UNESCO	8.5.1	pos	example
+D’Uno huet eng aussergewéinlech Versammlung festgeluecht. Déi nächst Nato-Manövere sinn am August. Et gi gutt Medikamenter géint Aids.	8.5.2	pos	example
+Déi nächst WM ass an zwee Joer. Si haten e Koup DVDen do leien.	8.5.2	pos	example
+Am Wanter gëtt den ACL dacks geruff. Ech hunn eng ganz Rei PDFe geläscht. Si hunn SARLe gegrënnt, et si keng SAen a keng ASBLen derbäi.	8.5.2	pos	example
+Dat steet op S. 11. Mir hunn z. B. all Mount en Ausfluch mat hinne gemaach.	8.5.2	pos	example
+D’Reunioun fänkt um 7 Auer c. t. un.	8.5.2	pos	example
+Hien huet eng Eent an der Prüfung. Hatt huet eng Dräi op der Zensur.	8.6	pos	example
+Dat Klengt huet dräimol	8.6	pos	example
+dräi Mol	8.6	pos	example
+hannereneen eng Sechs	8.6	pos	example
+gewierfelt.	8.6	pos	example
+Dee Fënnefte krut näischt méi. Dat Éischt war bal eng Sekonn méi séier.	8.6	pos	example
+Jidderee krut e Véierel vum Kuch.	8.6	pos	example
+Si waren alle sechs komm. Hien ass schonn iwwer achtzeg, si ass iwwer uechtzéng. E Schaltjoer huet dräihonnertsechsasechzeg Deeg.	8.6	pos	example
+Déi siwe Weltwonner, d’Zuele vun eent bis eelef, mir sinn zu aacht, bis honnert zielen. Hien ass mat Tempo honnert duerch d’Duerf gerannt.	8.6	pos	example
+Hie wollt dofir honnert Euro hunn.	8.6	pos	example
+Et mussen Honnerte vu Stroossen an Dosende vu Brécke gefléckt ginn.	8.6	pos	example
+vill, wéineg	8.6	pos	text
+Dat hunn der scho vill gesot. Déi wéineg, déi dat net soen, hunn ech net begéint.	8.6	pos	example
+Déi meescht sinn domat averstanen.	8.6	pos	example
+Carine, Christiane Muller, Max Hoffman, Pit	8.7.1	pos	example
+Esch, Ierpeldeng, Musel, Napoleonsgaart, Niklosbierg, Sauer, Veianen	8.7.1	pos	example
+Éischt Hëllef, de Grousse Won, den Internationalen Olympesche Comité	8.7.2	pos	example
+Kommitee	8.7.2	pos	example
+den Noen Osten, d’Olympesch Spiller, de Schifen Tuerm vu Pisa, d’Schwaarzt Mier	8.7.2	pos	example
+-er	8.7.2	pos	text
+d’Lallenger Kierch, d’Lëtzebuerger Strooss, de Schwäizer Kéis	8.7.2	pos	example
+ech wunnen Op Tomm, du wunns An der Hiel, hie wunnt Op der	8.7.2	pos	example
+Muerbels, si wunnen Um Leschte Steiwer	8.7.2	pos	example
+den Éischte Weltkrich, d’Franséisch Revolutioun, den Hellege Rack (zu Tréier), den Hellege Stull	8.7.2	pos	example
+Rout Kréischelen, Schwaarz Kréischelen, Déck Kréischelen	8.7.2	pos	example
+de Bengaleschen Tiger, den Indeschen Elefant, e Wëllt Schwäin	8.7.2	pos	example
+e Wëllschwäin	8.7.2	pos	example
+eng Wëll Kaz	8.7.2	pos	example
+eng Wëllkaz	8.7.2	pos	example
+um Schwaarze Briet (wou d’Informatiounen hänken)	8.7.2	pos	example
+de Schwaarze Mann (deen d’Kanner fäerte sollen oder deen am Mëllerdall)	8.7.2	pos	example
+e Schwaarzt Lach (Astronomie)	8.7.2	pos	example
+déi Rout Kaart (am Fussball)	8.7.2	pos	example
+d’Gro Kaart (vum Auto)	8.7.2	pos	example
+De Film	8.7.3	pos	example
+war e groussen Erfolleg. An der Schoul hu mer missen en Aufsatz schreiwen:	8.7.3	pos	example
+. Kenns de dem Pol Greisch säi Buch	8.7.3	pos	example
+du, de, dech, dir	8.7.4	pos	text
+dir, der, iech	8.7.4	pos	text
+Hues du eppes fonnt fir dech? Maacht der iech fäerdeg!	8.7.4	pos	example
+Dir, Der, Är, Iech	8.7.4	pos	text
+Hutt Dir Iech mat Ären Noperen arrangéiert?	8.7.4	pos	example
+Wann Dir eng Ufro maacht, kënnt Der deen heite Service kontaktéieren.	8.7.4	pos	example
+Kéint Dir Ärersäits kontrolléieren, ob se Iech et geschéckt hunn?	8.7.4	pos	example
+Wéi seet d’Spréchwuert: Deen nëmmen eng Klack héiert, kennt nëmmen ee Schall.	8.7.5	pos	example
+Natierlech kënne mir Iech en Dësch reservéieren: kee Problem! / Kee Problem!	8.7.5	pos	example
+Här Muller	8.7.5	pos	example
+mir si frou ...	8.7.5	pos	example
+’t ass kal.	8.7.5	pos	example
+Aarbechtsgrupp, Entwécklungshëllef, Foussgängerwee, Grondschoul	9.1.1	pos	example
+Liewenslaf, Regierungsprogramm, Zëmmerdier	9.1.1	pos	example
+net	9.1.1	pos	text
+net	9.1.1	pos	text
+Bakform, Blosaier, Héichhaus, Lafschong, Schreifdësch	9.1.1	pos	example
+e Schwéierblesséierten, e Liichtverletzten	9.1.1	pos	example
+Lëtzebuerger an Netlëtzebuerger	9.1.1	pos	example
+Net-Lëtzebuerger	9.1.1	pos	example
+Kathedralstuerm, Schofspelz	9.1.1	pos	example
+Mega-Aarbecht	9.1.1	pos	example
+Megaaarbecht	9.1.1	pos	example
+Staccato-Ootmung	9.1.1	pos	example
+Staccatoootmung	9.1.1	pos	example
+Zoo-Orchester	9.1.1	pos	example
+Zooorchester	9.1.1	pos	example
+d’Autofueren, d’Geschichteliesen, d’Spadséieregoen	9.1.1	pos	example
+Achillesseen, Muselwéngchen, Nobelpräis, Röntgenstralen, Suezkanal	9.1.1	pos	example
+Citroënscamionnetten, Ikeasregal	9.1.1	pos	example
+en CD-Lafwierk, eng Koffer-Zénk-Legéierung, eng Mozart-Symphonie, en Nato-Staat, eis n-Reegel, de pH-Wäert, d’SES-Satellitten, en USB-Stick, den US-Staat Ohio, en Net-EU-Bierger	9.1.1	pos	example
+Beckiusstrooss	9.1.1	pos	example
+Jean-Pierre-Beckius-Strooss	9.1.1	pos	example
+Dictionnaires-Artikel, Lëtzebuergesch-Enseignant, Schëppen-Äss	9.1.1	pos	example
+Dictionnairesartikel, Lëtzebuergeschenseignant, Schëppenäss	9.1.1	pos	example
+-er	9.1.2	pos	text
+Genfer Séi, Lëtzebuerger Strooss, Wiener Schnitzel	9.1.2	pos	example
+Heischtergronn, Bierengerbierg	9.1.2	pos	exception
+e Véierelsliter, e Véierelspond Botter, zwou Honnertstelsekonnen	9.2	pos	example
+hallef, hallwer	9.2	pos	exception
+an enger hallwer Stonn, nach eng hallef Stonn, en hallwe Liter	9.2	pos	example
+zwou Véierelstonne sinn eng hallef Stonn	9.2	pos	example
+dafstomm, groblo, naasskal, séisssauer	9.3.1	pos	example
+déi lëtzebuergesch-belsch Grenz	9.3.1	pos	example
+de wëssenschaftlech-techneschen Assistent	9.3.1	pos	example
+extradënn, héichgëfteg, hyperaktiv, mannerbemëttelt, superschlau	9.3.1	pos	example
+ultrakonservativ, waarmhäerzeg	9.3.1	pos	example
+psycho-:	9.3.1	pos	text
+psychoanalytesch, psychosozial	9.3.1	pos	example
+äiskal, altersbedéngt, benotzerfrëndlech, computergesteiert	9.3.1	pos	example
+doudonglécklech, liewensgeféierlech, steenhaart, waasserdicht	9.3.1	pos	example
+meterhéich	9.3.1	pos	example
+e puer Meter héich	9.3.1	pos	example
+angloamerikanesch, eendeiteg, méideiteg, villfach, zweefach	9.3.1	pos	example
+allgemeng	9.3.2	pos	text
+Dat ass en allgemenggültegen Zousaz.	9.3.2	pos	example
+Dat ass en allgemeng gültegen Zousaz.	9.3.2	pos	example
+e selwergestréckte Schal	9.3.2	pos	example
+e selwer gestréckte Schal	9.3.2	pos	example
+déi sougenannte Panama-Pabeieren	9.3.2	pos	example
+déi sou genannte Panama-Pabeieren	9.3.2	pos	example
+elengerzéiend Mammen a Pappen	9.3.2	pos	example
+eleng erzéiend Mammen a Pappen	9.3.2	pos	example
+net	9.3.2	pos	text
+net ëffentlech	9.3.2	pos	example
+netëffentlech	9.3.2	pos	example
+net-ëffentlech	9.3.2	pos	example
+enk vertraut, liicht verdaulech, méi liicht verdaulech, liicht verletzt, schwéier krank, schwéier blesséiert, schlecht gelaunt, immens schlecht gelaunt	9.3.3	pos	example
+hallef eidel, hallef erfruer, e wäit verbreeten Iertum	9.3.3	pos	example
+kachen, rosen, fléissen:	9.3.3	pos	bullet
+kache waarm, kache gliddeg, mat kache Waasser, rose wéineg, fléisse Waasser	9.3.3	pos	example
+ze	9.4.1	pos	text
+opmaachen: Et ass schwéier, dës Këscht opzemaachen.	9.4.1	pos	example
+virstellen: Ech hat mer dat anescht virgestallt.	9.4.1	pos	example
+heemgoen: Et gëtt Zäit, datt mer heemginn.	9.4.1	pos	example
+opmaachen: Ech maachen op. Maach op!	9.4.1	pos	example
+virstellen: Ech stelle vir. Hie stellt eis vir.	9.4.1	pos	example
+heemgoen: Ech ginn heem, géi och heem!	9.4.1	pos	example
+an-, op-, mat-, virun-	9.4.1	pos	bullet
+erëm-, ewech-, zeréck-, zesummen-	9.4.1	pos	bullet
+heem-, präis-, wäis-, wett-	9.4.1	pos	example
+aneneeknuppen, auslafen, beieneebleiwen, derbäihunn, derhannertstiechen, dernieftleien, dobleiwen, erausgoen, erëmgesinn, ewechginn, géintiwwerleien, heemgoen, matdeelen, mathuelen, matrappen, opfalen, opgoen, opmaachen, präisginn, virkommen, virstellen, wäismaachen, wettmaachen, zeréckfannen, zesummenhalen, zesummeschreiwen, zesummestrécken	9.4.1	pos	example
+si sinn nach eemol dervukomm; du bass erausgaangen;	9.4.1	pos	example
+ech hunn et erageholl	9.4.1	pos	example
+deelhuelen, fräispriechen, groussschreiwen, klengschreiwen, leeddoen, schifgoen	9.4.1	pos	example
+Mir hu si erëmgesinn. No senger Operatioun konnt hien erëm gesinn.	9.4.1	pos	example
+Wëlls de dobäibleiwen? Wëlls de dobäi bleiwen?	9.4.1	pos	example
+Och wann s de d'Reegel net verstees, muss de dech drun halen. Hal op, muss de dech dann esou drunhalen?!	9.4.1	pos	example
+Et huet alles geännert, mir hunn eis ëmgestallt. Ech hunn d’Miwwelen an der Stuff ëmgestallt. D’Polizisten hunn sech ëm hie gestallt.	9.4.1	pos	example
+sinn	9.4.2	pos	bullet
+aus sinn, derbäi sinn, eriwwer sinn, do sinn, op sinn, u sinn	9.4.2	pos	example
+akafe goen, gefaangen huelen, getrennt schreiwen, schreiwe léieren, spadséiere goen, stoe bleiwen, verluer goen, waarde loossen	9.4.2	pos	example
+futti maachen, kleng schneiden, propper maachen, waarm maachen	9.4.2	pos	example
+Angscht hunn, Piano spillen, Schi fueren, sech an Uecht huelen, ech hunn Uecht gedoen, hie ka gutt Vëlo fueren a schlecht Auto fueren a Fro stellen, a Stand halen	9.4.2	pos	example
+amstand sinn	9.4.2	pos	example
+zu	9.4.2	pos	text
+ze	9.4.2	pos	text
+zugronn (zegronn) goen, zumutt (zemutt) sinn, zurieds (zerieds) stellen, zuschan (zeschan) maachen, zuscholde (zescholde) komme loossen, zustan (zestan) kommen/bréngen, zuwee (zewee) bréngen, zuleeds (zeleeds) doen	9.4.2	pos	example
+am Gaang(en) sinn	9.4.2	pos	bullet
+amgaang(en) sinn.	9.4.2	pos	example
+een hellegspriechen, ee krankschreiwen, eppes richtegstellen, routgesinn, eppes sathunn, schwéierfalen	9.4.2	pos	example
+hien ass gëschter schwéier gefall	9.4.2	pos	example
+, sech futtilaachen, sech schwéierdoen, sëtzebleiwen den Dokter huet si krankgeschriwwen; mir hu routgesinn	9.4.2	pos	example
+Si hu sech goegelooss. No där Affär gouf hie falegelooss.	9.4.2	pos	example
+Si sinn allen zwee sëtzebliwwen, d. h., si hunn alle béid d’Schouljoer missen dubléieren.	9.4.2	pos	example
+Hien ass sëtze bliwwen, op senger Plaz, op sengem Stull.	9.4.2	pos	example
+wannechgelift, watgelift	9.5.1	pos	bullet
+wannechgelift	9.5.1	pos	note
+wgl.	9.5.1	pos	note
+iergend-	9.5.1	pos	bullet
+iergendeen, iergendeppes, iergendwou, iergendwéi	9.5.1	pos	example
+iergendeng Fra, iergende Mann, iergendee Kand, op iergendeng Manéier	9.5.1	pos	example
+iergend esou een, iergend esou eppes	9.5.1	pos	example
+amplaz, andeems, (e)soubal, (e)soulaang (dat esou ass), (e)souwuel, nodeems, obschonns, soufären, wougéint, zemools, zënterhier	9.5.1	pos	example
+Äppel amplaz Orangen. Maach virun, amplaz ze träntelen!	9.5.1	pos	example
+(e)sou datt/dass	9.5.1	pos	example
+(e)soudatt/(e)soudass, ausser datt/dass	9.5.1	pos	example
+ouni datt/dass, fir datt/dass	9.5.1	pos	example
+allkéiers, anerersäits, biergop, daagsiwwer, därmoossen, eemol	9.5.1	pos	example
+ee Mol	9.5.1	pos	example
+ëmsou, géintiwwer, genausou, gradesou, iergendeen	9.5.1	pos	example
+jidderzäit, kengesfalls, mathëllef	9.5.1	pos	example
+mat Hëllef	9.5.1	pos	example
+mengersäits	9.5.1	pos	example
+munchmol/muenchmol, opgrond	9.5.1	pos	example
+op Grond	9.5.1	pos	example
+e puermol	9.5.1	pos	example
+e puer Mol	9.5.1	pos	example
+sengerzäit, sengesgläichen, souwisou/souwéisou, unhand	9.5.1	pos	example
+zemol, zemools, zudéifst, zurzäit, zweemol	9.5.1	pos	example
+zwee Mol	9.5.1	pos	example
+selwecht	9.5.2	pos	bullet
+nämmlecht	9.5.2	pos	bullet
+dee selwechten, dat selwecht, déi selwecht, d’selwecht	9.5.2	pos	example
+deen nämmlechten, dat nämmlecht, déi nämmlecht	9.5.2	pos	example
+Hie fiert zanter Jore mat dem selwechten Auto. Hie fiert mat deem selwechten Auto ewéi ech. Ech hunn dat nämmlecht geduecht.	9.5.2	pos	example
+(e)sou, ze	9.5.2	pos	bullet
+(e)wéi	9.5.2	pos	example
+(e)sou vill, (e)sou wéineg, (e)sou wäit, et ass (e)sou wäit, (e)sou vill Zäit, (e)sou vill s de wëlls, ze vill, ze mann	9.5.2	pos	example
+ze wéineg, (e)wéi vill, (e)wéi laang	9.5.2	pos	example
+(e)soudass	9.5.2	pos	example
+(e)sou dass, (e)soudatt	9.5.2	pos	example
+(e)sou datt (e)sougenannt	9.5.2	pos	example
+(e)sou genannt	9.5.2	pos	example
+(e)souvill	9.5.2	pos	text
+(e)souwäit	9.5.2	pos	text
+(e)souvill ech weess, hat si sech ofgemellt	9.5.2	pos	example
+souzesoen	9.5.2	pos	example
+wéivillten	9.5.2	pos	example
+Däi wéivillte Béier war dat elo?	9.5.2	pos	example
+guer keen, soss keen	9.5.2	pos	example
+dës Kéier, dës Säit, doriwwer eraus, guer net, keng Kéier, virun allem, vun Haus aus, zu Enn (bréngen), zu Fouss (goen), zu Hänn, zu Schued (kommen), zur Zäit vun	9.5.2	pos	example
+E-Learning, E-Mail, Fouen-s, i-Punkt, T-Shirt, x-belibeg, x-mol, fir d’x-te Kéier	9.6.1	pos	example
+5-mol	9.6.2	pos	example
+5 Mol	9.6.2	pos	example
+100-prozenteg, e 70-Järegen, e 50-järege Mann	9.6.2	pos	example
+eng 2/3-Majoritéit, en 30-Tonner, eng 3:5-Néierlag, eng 40-Stonne- Woch, den 100-Meter-Laf, d’90er-Joren	9.6.2	pos	example
+1res-Diplom, 13es-Diplom, 7es-Schüler	9.6.2	pos	example
+-eg	9.6.2	pos	text
+stel	9.6.2	pos	text
+100%eg, eng 100stel Sekonn	9.6.2	pos	example
+de pH-Wäert, en SES-Satellit, d’Uno-Vollversammlung, UV-Stralen	9.6.3	pos	example
+Schoulgebaier, -kanner a -bussen	9.6.4	pos	example
+Schoulgebaier, Schoulkanner a Schoulbussen	9.6.4	pos	example
+Chrëscht-, Ouschter- a Päischtvakanz	9.6.4	pos	example
+Chrëschtvakanz, Ouschtervakanz a Päischtvakanz	9.6.4	pos	example
+Schoul- an ëffentlechen Transport	9.6.4	pos	example
+Schoultransport an ëffentlechen Transport	9.6.4	pos	example
+de Bus-/Tram-/Zuchtrajet	9.6.4	pos	example
+de Bustrajet, den Tramtrajet an/oder den Zuchtrajet	9.6.4	pos	example
+(auto-)biografesch, (Welt-)Literatur	9.6.4	pos	example
+Ech weess net, wéi et virugeet … Mee dat gesi mer.	10.1	pos	example
+„Sch…!“, sot hien an huet sech duerch d’Bascht gemaach.	10.1	pos	example
+hie war de 26. an der Course, 1. Hëllef, déi 100. Kéier	10.1	pos	example
+Ech gi muer akafen. Kënns de mat? Fro nach!	10.2	pos	example
+Mir gi muer an de Kino. De Film leeft nach just dës Woch.	10.2.1	pos	example
+Mir gi scho muer an de Kino, well de Film net méi laang leeft.	10.2.1	pos	example
+Ech kucken dat no. Ech kucken no, fir wéini mer dat agedroen haten.	10.2.1	pos	example
+Komm einfach mat.	10.2.1	pos	example
+Komm elo direkt heihinner!	10.2.1	pos	example
+D’Maus Ketty	10.2.1	pos	example
+Gesetz iwwer d’Lëtzebuerger Nationalitéit	10.2.1	pos	example
+6 km Stau no Accident op der A6	10.2.1	pos	example
+Bescht Gréiss	10.2.1	pos	example
+Jos Jeeminee	10.2.1	pos	example
+Wien ass heivu betraff?	10.2.1	pos	example
+Jonk Leit bis 20 Joer	10.2.1	pos	example
+Jonk Leit iwwer 20 Joer, déi nach an d’Schoul ginn	10.2.1	pos	example
+Leit, déi hiren Ofschloss um 2. Bildungswee nohuelen	10.2.1	pos	example
+Wa si dat esou mengen …	10.2.1	pos	example
+Dozou gehéieren Timberen, Mënzen, Béierglieser asw.	10.2.1	pos	example
+De beschte Lëtzebuerger gouf 12.	10.2.1	pos	example
+Jänni Männi	10.2.1	pos	example
+23, Lëtzebuerger Strooss	10.2.1	pos	example
+L–1234 Wemperhaart	10.2.1	pos	example
+Häls de wuel op! Géi direkt an deng Kummer! Du muss dat zu Enn bréngen! Wann ech dat do nach eemol gesinn, kanns de eppes erliewen!	10.2.2	pos	example
+Wär dach nëmme geschwë Fréijoer! Kuck hei, wéi flott dat ginn ass!	10.2.2	pos	example
+Wat eng Chance! Moien alleguer! Aua! Aua, du dees mer wéi!	10.2.2	pos	example
+Här Direkter	10.2.2	pos	example
+wéi gëschter an der Sitzung …	10.2.2	pos	example
+Waars de schonn do?	10.2.3	pos	example
+Soll ech der eppes matbréngen, wann ech an d’Stad fueren?	10.2.3	pos	example
+Waart dir gëschter an de Kino? A wéi ee Film?	10.2.3	pos	example
+Wëlls de léiwer Téi oder Kaffi? Firwat?	10.2.3	pos	example
+?!	10.2.3	pos	note
+Du gees bei deem Wieder aus dem Haus?! So, hues du se nach all?!	10.2.3	pos	example
+D’Liz koum ze spéit an d’Schoul, de Schoulmeeschter huet sech geiergert.	10.3.1.1	pos	example
+Bei Kannerschong ass et wichteg, datt se net ze grouss sinn, datt se vir net drécken, datt d’Stréckelen net ze laang sinn, datt d’Form bei de Fouss passt.	10.3.1.1	pos	example
+Hie reegt sech iwwer alles op, seng Kolleegen op der Schaff, d’Noperen	10.3.1.1	pos	example
+d’Membere vum Handballveräin, d’Personal am Restaurant.	10.3.1.1	pos	example
+Gromperen, Äppel a Biere louchen am Kuerf.	10.3.1.1	pos	example
+Si hu gesongen, gepaff, gejaut.	10.3.1.1	pos	example
+Si hu séier, effikass, kompetent geschafft.	10.3.1.1	pos	example
+Et kann sech net jidderee grouss, déck, deier Autoe leeschten.	10.3.1.1	pos	example
+mee, awer	10.3.1.1	pos	text
+d. h. (dat heescht)	10.3.1.1	pos	text
+Mir wollte mam Auto fueren, mee et war ze glat.	10.3.1.1	pos	example
+Et war lëschteg, awer och heiansdo traureg.	10.3.1.1	pos	example
+Efforte ginn net just an der Grondschoul gemaach, mee och am Lycée.	10.3.1.1	pos	example
+Si froen och no de Pabeieren, d. h. nom Fürerschäin an der Groer Kaart.	10.3.1.1	pos	example
+an	10.3.1.1	pos	text
+(entweeder …) oder, respektiv, (souwuel …) wéi (och)	10.3.1.1	pos	example
+weeder … nach	10.3.1.1	pos	example
+D’Liz koum ze spéit an d’Schoul an de Proff huet sech geiergert.	10.3.1.1	pos	example
+Si hu gesongen a gepaff a gejaut. Mir komme muer oder iwwermuer.	10.3.1.1	pos	example
+Entweeder mir leeschten eis en neien Auto oder eng Vakanz.	10.3.1.1	pos	example
+Mir mussen dat nach ausfëlle respektiv nei schreiwen.	10.3.1.1	pos	example
+Hie ka weeder sangen nach danzen.	10.3.1.1	pos	example
+D’Liz koum ze spéit an d’Schoul, an de Proff huet sech geiergert, well dat den Unterrecht stéiert.	10.3.1.1	pos	example
+An du bass esou an d’Virstellungsgespréich gaangen, mat der futtisser Jeans an am T-Shirt?!	10.3.1.1	pos	example
+Hie muss nach säin Text verbesseren, respektiv ganz Abschnitter nei formuléieren.	10.3.1.1	pos	example
+Si soten, dat wier nach ëmmer esou gemaach ginn.	10.3.1.2	pos	example
+Hie géing sech freeën, wa mer kommen.	10.3.1.2	pos	example
+Hatt freet, ob ech de Kuch wëll schmaachen, deen hatt gebak huet.	10.3.1.2	pos	example
+ze	10.3.1.2	pos	bullet
+awer/ma/mee, datt/dass, amplaz datt, bis datt,	10.3.1.3	pos	bullet
+éier/ier, iwwerdeems, obschonns, wann, och wann, wéi, well.	10.3.1.3	pos	example
+Ech hu gelaacht, wéi hien am Clownskostüm erakoum.	10.3.1.3	pos	example
+Et ass schéin, datt si komm sinn, obwuel se net vill Zäit haten.	10.3.1.3	pos	example
+Mir hunn den Dësch gedeckt, iwwerdeems si d’Zalot preparéiert hunn.	10.3.1.3	pos	example
+Si koum eréischt, nodeems hie scho fort war.	10.3.1.3	pos	example
+Mir fueren, éier et däischter gëtt.	10.3.1.3	pos	example
+Ech freeë mech och, wann s de näischt matbréngs.	10.3.1.3	pos	example
+Ech freeë mech, och wann s de näischt matbréngs.	10.3.1.3	pos	example
+egal ob, egal wéi, ëmmer wann, jee	10.3.1.3	pos	example
+nodeem ob, jee nodeem wéi	10.3.1.3	pos	text
+dräi Deeg ier, fënnef Minutten nodeems	10.3.1.3	pos	example
+Hie kënnt, egal ob et reent oder net	10.3.1.3	pos	example
+Ech kann den Text haut nach schécken, jee nodeem wéi gutt ech virukommen	10.3.1.3	pos	example
+Zéng Minutten nodeems ech aus dem Haus war, koum de Bréifdréier	10.3.1.3	pos	example
+deen, dat, déi, deem, deen	10.3.1.3	pos	bullet
+där, wéini, wiem, wou, firwat:	10.3.1.3	pos	example
+Dat ass e Restaurant, dee mer iech wierklech recommandéiere	10.3.1.3	pos	example
+kënnen!	10.3.1.3	pos	example
+Du behëls dech wéi e Kand, deem d’Lutsch ewechgeholl gouf.	10.3.1.3	pos	example
+Ech weess net, wéini ech dat nach soll maachen.	10.3.1.3	pos	example
+Si wëssen net, wou hien drun ass.	10.3.1.3	pos	example
+Et ass eng Vakanz, un déi mer nach laang wäerten denken.	10.3.1.3	pos	example
+Hien huet sech iwwerluecht, mat wat hien si kéint iwwerraschen.	10.3.1.3	pos	example
+Weess du, fir wéini de Chef dee Rapport brauch?	10.3.1.3	pos	example
+Ech weess bis haut nach net firwat. Ech weess bis haut nach net	10.3.1.3	pos	example
+firwat.	10.3.1.3	pos	example
+Ech weess nach haut net, firwat en dat gesot huet.	10.3.1.3	pos	example
+Wa mer éischter do sinn, hale mer iech eng Plaz fräi.	10.3.1.3	pos	example
+Datt hien elo auswandert, kann ech mer bal net virstellen.	10.3.1.3	pos	example
+Wou si de Moment an der Vakanz sinn, ass e schlëmme Stuerm.	10.3.1.3	pos	example
+Firwat e mech an net dech gefrot huet, kann ech der net soen.	10.3.1.3	pos	example
+E Buch, dat mer gutt gefall huet, schenken ech gär weider.	10.3.1.3	pos	example
+De Mueren, wéi ech wollt opstoen, war et immens kal.	10.3.1.3	pos	example
+Ech kucken, ob den Dossier richteg gespäichert ass, an da ginn ech heem.	10.3.1.3	pos	example
+ze	10.3.1.4	pos	bullet
+fir ze	10.3.1.4	pos	bullet
+eppes, näischt, vill, wéineg	10.3.1.4	pos	example
+Dat Klengt probéiert ze lafen	10.3.1.4	pos	example
+Hien huet ugefaangen ze jäizen.	10.3.1.4	pos	example
+Dat ass fir ze kräischen. Dat ass jo fir ze laachen.	10.3.1.4	pos	example
+Dat ass just fir ze kucken, awer net fir z’iessen.	10.3.1.4	pos	example
+Dat ass en Timber fir ze sammelen.	10.3.1.4	pos	example
+Hues du eppes fir ze drénken derbäi?	10.3.1.4	pos	example
+Hien huet vill ze schaffen.	10.3.1.4	pos	example
+Se hunn näischt ze räissen an näischt ze bäissen.	10.3.1.4	pos	example
+Ech sinn dofir ofzestëmmen.	10.3.1.4	pos	example
+Ech denken net dru fir opzehalen.	10.3.1.4	pos	example
+hunn, sinn	10.3.1.4	pos	bullet
+brauchen	10.3.1.4	pos	bullet
+schéngen	10.3.1.4	pos	bullet
+Hien huet dat net ze maachen.	10.3.1.4	pos	example
+Du hues hei näischt ze radetten.	10.3.1.4	pos	example
+Dozou ass näischt ze soen.	10.3.1.4	pos	example
+Mir brauchen net op hien ze waarden.	10.3.1.4	pos	example
+Dat schéngt nach net bei jidderengem ukomm ze sinn.	10.3.1.4	pos	example
+Hien ass do, fir eis ze hëllefen.	10.3.1.4	pos	example
+eis	10.3.1.4	pos	example
+Hien ass do fir ze hëllefen.	10.3.1.4	pos	example
+Ech muss bis an d’Nopeschduerf fueren, fir Bréidercher ze kréien.	10.3.1.4	pos	example
+Bréidercher	10.3.1.4	pos	example
+Wou ass de Formulaire, fir sech anzeschreiwen?	10.3.1.4	pos	example
+sech	10.3.1.4	pos	example
+Si si komm, fir mat hinnen ze schwätzen.	10.3.1.4	pos	example
+mat hinnen	10.3.1.4	pos	example
+Dat ass, fir geckeg ze ginn.	10.3.1.4	pos	example
+geckeg	10.3.1.4	pos	example
+Hues du eppes derbäi, fir den Owend z’iessen, oder solle mer eng Pizza bestellen?	10.3.1.4	pos	example
+den Owend	10.3.1.4	pos	example
+Si maache super Musek, fir ze lauschteren an ze genéissen.	10.3.1.4	pos	example
+an ze genéissen	10.3.1.4	pos	example
+Dat ass, fir ze wëssen, wéi et geet.	10.3.1.4	pos	example
+wéi et geet	10.3.1.4	pos	example
+Dat ass eng Testmail, fir ze kucken, ob et klappt.	10.3.1.4	pos	example
+ob et klappt	10.3.1.4	pos	example
+amplaz … ze:	10.3.1.4	pos	example
+Si sollten sech d’Hand reechen, amplaz d’Fauscht an der Täsch ze maachen.	10.3.1.4	pos	example
+Sot frëndlech Bonjour, amplaz ze motzen.	10.3.1.4	pos	example
+ouni … ze:	10.3.1.4	pos	bullet
+Laf net iwwer d’Strooss, ouni riets a lénks ze kucken.	10.3.1.4	pos	example
+Maach, wat si seet, ouni ze maulen.	10.3.1.4	pos	example
+wéi … ze	10.3.1.4	pos	bullet
+als	10.3.1.4	pos	bullet
+Si hätt besser gehat, hiert Kand ze stéieren, wéi mat der Nopesch ze streiden.	10.3.1.4	pos	example
+Et ass him näischt anescht iwweregbliwwen, wéi matzegoen.	10.3.1.4	pos	example
+ausser ... ze	10.3.1.4	pos	bullet
+Mir kënnen am Fong net vill maachen, ausser ze sensibiliséieren.	10.3.1.4	pos	example
+Et ass d’Fuerderung un d’Gewerkschaften, e Sozialplang	10.3.1.4	pos	example
+auszeschaffen.	10.3.1.4	pos	example
+Et ass d’Fuerderung un d’Dokteren, de Patienten nozelauschteren.	10.3.1.4	pos	example
+Säi Wonsch huet sech net erfëllt, alles mat Zäit fäerdeg ze hunn.	10.3.1.4	pos	example
+De Gedanke war ze schéin, alles falen a leien ze loossen.	10.3.1.4	pos	example
+Si hunn sech fir d’Course ugemellt mam Zil, se héich ze	10.3.1.4	pos	example
+gewannen.	10.3.1.4	pos	example
+et, dat, dëst, domat, dorop, duerfir	10.3.1.4	pos	example
+Et ass besser, direkt ze goen.	10.3.1.4	pos	example
+Et ass besser ze goen.	10.3.1.4	pos	example
+Mat Leit ze dinn ze hunn, dat huet hir am meeschte Spaass gemaach.	10.3.1.4	pos	example
+An hiren Aen ass et wichteg, d’Patienten direkt ze behandelen.	10.3.1.4	pos	example
+Elo kënnt et drop un, alles no Plang ze maachen.	10.3.1.4	pos	example
+Als Éischten iwwer d’Zillinn ze lafen, domat hat hien net gerechent.	10.3.1.4	pos	example
+Ech hunn hien dozou opgefuerdert, dat alles leien ze loossen.	10.3.1.4	pos	example
+Ech hu wéi laang probéiert(,) him unzeruffen.	10.3.1.4	pos	example
+En huet vergiess(,) sech ofzemellen.	10.3.1.4	pos	example
+Hei ze wunnen(,) ass net grad bëlleg.	10.3.1.4	pos	example
+Déi nei Programmer probéieren(,) engem d’Liewe méi einfach ze maachen.	10.3.1.4	pos	example
+Si beschléissen zesummen, ze hëllefen.	10.3.1.4	pos	example
+Si beschléissen, zesummen ze hëllefen.	10.3.1.4	pos	example
+Mir verspriechen him, eppes Klenges bäizeleeën.	10.3.1.4	pos	example
+Mir verspriechen, him eppes Klenges bäizeleeën.	10.3.1.4	pos	example
+fatzeg geplot, gutt verpaakt, waarm ugedoen ...	10.3.1.5	pos	bullet
+vum Liewen enttäuscht, wéi virdrunner scho	10.3.1.5	pos	bullet
+beschwat	10.3.1.5	pos	example
+Vun dësem Standpunkt aus gekuckt(	10.3.1.5	pos	example
+gesäit dat ganz anescht aus.	10.3.1.5	pos	example
+Op d’Zuel vun de Mataarbechter bezunn(	10.3.1.5	pos	example
+ass dat nëmmen e klengen Deel.	10.3.1.5	pos	example
+En ass(	10.3.1.5	pos	example
+déif beleidegt(	10.3.1.5	pos	example
+senger Wee gaangen.	10.3.1.5	pos	example
+Wéi scho gesot(	10.3.1.5	pos	example
+ass dat do eréischt d’nächst Woch fäerdeg.	10.3.1.5	pos	example
+Esou gesinn(	10.3.1.5	pos	example
+huet e Recht.	10.3.1.5	pos	example
+Streng geholl(	10.3.1.5	pos	example
+kënne mer dat maachen.	10.3.1.5	pos	example
+Ech hunn(	10.3.1.5	pos	example
+éierlech gesot(	10.3.1.5	pos	example
+keng Zäit dofir.	10.3.1.5	pos	example
+En ass senger Wee gaangen, déif beleidegt.	10.3.1.5	pos	example
+Gutt geknat ass hallef verdaut.	10.3.1.5	pos	example
+De Pit, dee beschte Spiller vum Veräin, hält d’nächst Saison op.	10.3.2	pos	example
+Den Nico Helminger an de Guy Helminger, zwee Lëtzebuerger Auteuren	10.3.2	pos	example
+hunn och scho Präisser am Ausland kritt.	10.3.2	pos	example
+O jee, wat hues de dann do gestiicht?	10.3.2	pos	example
+Här Séngels, kënnt Dir eis wgl. eng Hand upaken?	10.3.2	pos	example
+Mir hu gebak: Äppeltaarten, Eclairen a Rubbarbstäertercher;	10.3.3	pos	example
+Karbrout, Bottermëllechbréidercher a Spelztrëtzen.	10.3.3	pos	example
+Dat Buch ass wierklech interessant; et si vill flott Iddien dran.	10.3.3	pos	example
+No der Stonn huet si op eemol gefrot: „Hues du eigentlech alles verstanen haut?“	10.3.4	pos	example
+Et ass esou: Wann s du et haut net méchs, da muss de dech muer drëm këmmeren.	10.3.4	pos	example
+D’Fro ass: Wat geschitt elo? Iwwerhaapt: Häss du dat da geduecht?	10.3.4	pos	example
+Ech hu seng Blénkzeeche gesinn: Alles an der Rei!	10.3.4	pos	example
+alles an der Rei!	10.3.4	pos	example
+Mir wossten nëmmen eppes: Séier fort!	10.3.4	pos	example
+séier fort!	10.3.4	pos	example
+Si haten alles agepaakt: déck Pulloveren, wëlle Strëmp, Händschen a Mutzen.	10.3.4	pos	example
+Nodeems ech alles iwwerduecht hat, hat ech mer et scho bal erwaart:	10.3.4	pos	example
+datt hien net géif kommen.	10.3.4	pos	example
+Et ass elo 10:30 Auer.	10.3.4	pos	example
+Mir sinn do vun 8:00 bis 12:00.	10.3.4	pos	example
+Dee Leefer ass mat 3:03:35,58 seng perséinlech Beschtzäit gelaf.	10.3.4	pos	example
+Den F91 huet 4:3 géint de Progrès gewonnen.	10.3.4	pos	example
+D’Kaart ass am Moossstaf 1:25000.	10.3.4	pos	example
+D’Chancë sti 50:50.	10.3.4	pos	example
+Et war eng kloer 1:5-Néierlag.	10.3.4	pos	example
+De Mulles gewënnt mat 6:3, 6:3 a 7:5.	10.3.4	pos	example
+zu	10.3.4	pos	text
+Flott ze kucken – einfach ze maachen	10.3.5	pos	example
+Madrid – Roum – London	10.3.5	pos	example
+Einfach – séier – gutt	10.3.5	pos	example
+D’Eeër derbäiginn – réieren – nach eemol waarm gi loossen – fäerdeg!	10.3.5	pos	example
+Ech koum an de Raum, hu ronderëm mech gekuckt an – do stoung et!	10.3.5	pos	example
+„Komm emol kucken.“ – „Ech sinn direkt do.“	10.3.5	pos	example
+Enges Daags – et war am Dezember – koum en dunn erëm.	10.3.5	pos	example
+Enges Daags, et war am Dezember, koum en dunn erëm.	10.3.5	pos	example
+An dunn huet hien – du gleefs et net!	10.3.5	pos	example
+eng fantastesch Ried gehalen.	10.3.5	pos	example
+An dunn huet hien – weess de dat nach? – eng fantastesch Ried	10.3.5	pos	example
+gehalen.	10.3.5	pos	example
+Si hunn decidéiert – an dat huet eis net iwwerrascht –, dass si ouni hien d’Geschäfter ofwéckelen.	10.3.5	pos	example
+An du sot hien him – en huet sech dobäi net emol ëmgedréit	10.3.5	pos	example
+: „Wann s du dat gleefs, brauchs de net méi erëmzekommen.“	10.3.5	pos	example
+De Roman „Hannert dem Atlantik“ gëtt als „neie Lëtzebuerger Roman“ gefeiert.	10.4.1	pos	example
+„Am Pëtz do sëtzt de Kropemann“ ass den Ufank vun engem Gedicht vum Willy Goergen.	10.4.1	pos	example
+Nenn mer e puer Substantive mat der Endung „-heet“!	10.4.1	pos	example
+Wéi seet ee „merci“ op Suaheeli?	10.4.1	pos	example
+Hues de scho „Kenns du dat Land?“ gelies?	10.4.1	pos	example
+„Wéi ech heemkoum“, sot si, „waren d’Rolllueden all erof.“	10.4.1	pos	example
+„Dat war et da wuel“, duecht hien.	10.4.1	pos	example
+Aus wéi engem Gedicht sinn dës Zeilen: „Muss een da fir all Maufel Brout – an dausend Ängschte schwiewen“?	10.4.1	pos	example
+„Wéi seet ee ,Kammerjäger‘ op Lëtzebuergesch?“	10.4.1	pos	example
+Hie sot: „Ech kommen um 10 Auer.“	10.4.2	pos	example
+„Ech kommen um 10 Auer“, sot hien, „a bréngen alles mat.“	10.4.2	pos	example
+Hie sot: „Ech kommen um 10 Auer“, an huet agehaangen.	10.4.2	pos	example
+„Ech komme muer um 10 Auer“, huet hie versprach.	10.4.2	pos	example
+„Um wéi vill Auer kënns de?“, huet hie gefrot.	10.4.2	pos	example
+„Muer de Mueren“, sot hien, „gi mer zesumme Kaffi drénken.“	10.4.2	pos	example
+„Muer de Muere kommen ech um 10 Auer an da gi mer Kaffi drénken.“ Esou sot hien nach, ier en agehaangen huet.	10.4.2	pos	example
+So him et riichteraus: „Hal op!“! Firwat hues de net gesot: „Géi elo direkt!“?	10.4.2	pos	example
+d’Haus, d’Këscht, d’Schosselen	10.5.1	pos	example
+eppes z’iessen, ’t ass kal	10.5.1	pos	example
+Da’s (Dat ass) domm gaang!	10.5.1	pos	example
+Hues de s’all gesinn? Hues d’et gesinn? oder: Hues de ’t gesinn?	10.5.1	pos	example
+Se sangen d’Biergerjongen	10.5.1	pos	example
+se maache Paangechsdeeg, se heesche Bier’n a Bounen:	10.5.1	pos	example
+Speck, Är mä keng Streech.	10.5.1	pos	example
+de/d’, se/s’	10.5.1	pos	bullet
+déi/d’	10.5.1	pos	bullet
+ze/z’	10.5.1	pos	bullet
+Has d’n e gesinn?	10.5.1	pos	example
+D’Kanner hate vill z’entdecken.	10.5.1	pos	example
+et/’t, hien/’n	10.5.1	pos	bullet
+Huet hien ’t scho gefrot? Ass ’n och do?	10.5.1	pos	example
+Salut an ’n Owend alleguer! Bass du na’ bliwwen?	10.5.1	pos	example
+3,25	10.5.2	pos	text
+100,7	10.5.2	pos	text
+100 000	10.5.2	pos	text
+100.000	10.5.2	pos	text
+100000	10.5.2	pos	text
+123 890,45	10.5.2	pos	text
+123.890,45	10.5.2	pos	text
+123890,45	10.5.2	pos	text
+10,843.25 amplaz 10 843,25	10.5.2	pos	example

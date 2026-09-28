@@ -4,7 +4,8 @@ import { CORPUS_LANGS, getCorpus, type CorpusLang } from "../corpus/loader.js";
 import { findSimilar, splitSentences } from "../corpus/similar.js";
 import { checkGrammar, type GrammarIssue } from "../grammar/checks.js";
 import { LodLexicon } from "../grammar/lexicon.js";
-import { grammarNotes } from "../grammar/resources.js";
+import { grammarNotes, orthographyDigest } from "../grammar/resources.js";
+import { checkOrthography, ruleHintsForUnknownWord, CHECKS, type OrthoIssue } from "../ortho/checks.js";
 import type { LodClient } from "../lod/client.js";
 import { checkNRule, type NRuleIssue } from "../spell/nrule.js";
 import { getSpeller, isCorrect, spellcheck, type SpellIssue } from "../spell/speller.js";
@@ -28,9 +29,10 @@ function lineCol(src: string, offset: number): string {
 }
 
 export interface DraftReport {
-  spelling: SpellIssue[];
+  spelling: Array<SpellIssue & { hints?: Array<{ rule: string; hint: string }> }>;
   grammar: GrammarIssue[];
   nRule: NRuleIssue[];
+  orthography: OrthoIssue[];
   wordCount: number;
 }
 
@@ -46,13 +48,20 @@ export async function checkDraft(src: string, lod: LodClient, opts: { verify: bo
   // n-rule hints on words that the auxiliary check already rewrites are redundant
   const auxStarts = new Set(grammar.filter((g) => g.kind === "auxiliary").map((g) => g.start));
   const nRule = nRuleAll.filter((n) => !misspelled.has(n.start) && !auxStarts.has(n.start));
-  return { spelling, grammar, nRule, wordCount };
+  const orthography = checkOrthography(src);
+  // an orthography finding with a precise fix makes the spelling entry for the same word redundant
+  const covered = (st: number) => orthography.some((o) => o.confidence === "high" && st >= o.start && st < o.end);
+  const withHints = spelling.filter((s) => !covered(s.start)).map((s) => {
+    const hints = ruleHintsForUnknownWord(s.word, s.suggestions);
+    return hints.length ? { ...s, hints } : s;
+  });
+  return { spelling: withHints, grammar, nRule, orthography, wordCount };
 }
 
 export function formatDraftReport(src: string, r: DraftReport): string {
   const germanismStarts = new Set(r.grammar.filter((g) => g.kind === "germanism").map((g) => g.start));
   const spelling = r.spelling.filter((s) => !germanismStarts.has(s.start));
-  const all = [...r.grammar.map((g) => g.confidence), ...r.nRule.map((n) => n.confidence), ...spelling.map(() => "high" as const)];
+  const all = [...r.grammar.map((g) => g.confidence), ...r.nRule.map((n) => n.confidence), ...r.orthography.map((o) => o.confidence), ...spelling.map(() => "high" as const)];
   const high = all.filter((c) => c === "high").length;
   const L: string[] = [];
   L.push(
@@ -71,19 +80,32 @@ export function formatDraftReport(src: string, r: DraftReport): string {
   }
   if (spelling.length) {
     L.push("", "### Unknown words (not in the ZLS spelling dictionary)");
-    for (const s of spelling) L.push(`- **${s.word}** → ${s.suggestions.length ? s.suggestions.join(", ") : "no suggestion; look it up with lod_search (lang=de/fr/en) instead of guessing"} (${lineCol(src, s.start)})`);
+    for (const s of spelling) {
+      const hints = s.hints?.length ? ` — ${s.hints.map((h) => `${h.hint} (§${h.rule})`).join("; ")}` : "";
+      L.push(`- **${s.word}** → ${s.suggestions.length ? s.suggestions.join(", ") : "no suggestion; look it up with lod_search (lang=de/fr/en) instead of guessing"}${hints} (${lineCol(src, s.start)})`);
+    }
   }
   if (r.nRule.length) {
-    L.push("", "### n-rule (Eifeler Regel)");
+    L.push("", "### n-rule (Eifeler Regel, §6)");
     for (const n of r.nRule.sort((a, b) => RANK[a.confidence] - RANK[b.confidence] || a.start - b.start)) {
-      L.push(`- [${n.confidence}${n.lodConfirmed ? ", LOD" : ""}] **${n.word}** ${n.nextWord} → **${n.suggestion}** ${n.nextWord} (${lineCol(src, n.start)})`);
+      L.push(`- [${n.confidence}${n.lodConfirmed ? ", LOD" : ""}] **${n.word}** ${n.nextWord} → **${n.suggestion}** ${n.nextWord} — ${n.reason} (§${n.rule}; ${lineCol(src, n.start)})`);
+    }
+  }
+  if (r.orthography.length) {
+    const byCheck = new Map<string, OrthoIssue[]>();
+    for (const o of r.orthography) byCheck.set(o.check, [...(byCheck.get(o.check) ?? []), o]);
+    L.push("", "### Official orthography (spacing, capitalisation, punctuation, é/ë, apostrophes)");
+    for (const [check, items] of byCheck) {
+      for (const o of items.sort((a, b) => RANK[a.confidence] - RANK[b.confidence] || a.start - b.start)) {
+        L.push(`- [${o.confidence}] ${CHECKS[check]?.title ?? check}: “${o.text}” → “${o.suggestion}” — ${o.message} (§${o.rule}; ${lineCol(src, o.start)})`);
+      }
     }
   }
   L.push(
     "",
     "---",
-    "Checks: ZLS spelling dictionary, LOD genders/auxiliaries/translations, n-rule, dative after mat/vun/bei/zu/no/aus/zënter. " +
-      "Not checked: word order, idiom, register, tense choice. For those, compare with real sentences from corpus_similar_sentences and follow lb_writing_guide.",
+    "Checks: ZLS spelling dictionary; official orthography (D’Lëtzebuerger Orthografie, § cited; full text via lb_orthography_rules); n-rule; LOD genders/auxiliaries/translations; dative after mat/vun/bei/zu/no/aus/zënter. " +
+      "Not checked: word order, idiom, register, tense choice. For those, compare with corpus_similar_sentences and follow lb_writing_guide.",
   );
   return L.join("\n");
 }
@@ -94,12 +116,13 @@ export function registerDraftTools(server: McpServer, lod: LodClient) {
     {
       title: "Luxembourgish writing rules (read before writing)",
       description:
-        "Short rules for writing correct Luxembourgish instead of German-influenced 'pseudo-Luxembourgish': articles and gender, dative, hunn/sinn, " +
-        "past tense, conditional, n-rule, typical Germanisms. Maintained by the ZLS. Call this ONCE per conversation before you write, translate into or correct Luxembourgish.",
+        "The key rules of the official Luxembourgish orthography (with § references) plus grammar rules against German-influenced 'pseudo-Luxembourgish': " +
+        "vowel doubling, é/ë, n-rule, capitalisation, compounds, punctuation, articles and gender, dative, hunn/sinn, typical Germanisms. " +
+        "Call this ONCE per conversation before you write, translate into or correct Luxembourgish.",
       inputSchema: {},
       annotations: { title: "Writing guide", ...RO, openWorldHint: false },
     },
-    async () => text(grammarNotes()),
+    async () => text(`${orthographyDigest()}\n\n---\n\n${grammarNotes()}`),
   );
 
   server.registerTool(

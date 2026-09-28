@@ -5,6 +5,7 @@ import { LodClient } from "./lod/client.js";
 import { dictionarySource } from "./spell/speller.js";
 import { registerCorpusTools } from "./tools/corpus.js";
 import { registerDraftTools } from "./tools/draft.js";
+import { registerOrthographyTools } from "./tools/ortho.js";
 import { registerLodTools } from "./tools/lod.js";
 import { registerSpellTools } from "./tools/spell.js";
 
@@ -15,6 +16,7 @@ WHENEVER you write, translate into or correct Luxembourgish, follow this workflo
 2. When translating from French/German/English, first call corpus_similar_sentences with the source text and reuse the phrasing of the professional Luxembourgish translations.
 3. Never adapt a German word to Luxembourgish spelling. Look up every word you are not certain of with lod_search (lang=de/fr/en for the Luxembourgish equivalent). Use lod_get_inflection for participles and conjugations, and check noun genders in LOD.
 4. Draft, then run lb_check_draft. Fix every high/medium finding, and run it again until it is clean. Never show the user unchecked Luxembourgish.
+5. For any spelling, capitalisation, hyphenation or punctuation question, consult the official rules with lb_orthography_rules (query, § section or example word). When you correct a text, cite the paragraph (e.g. "§6.1.1").
 Other tools: lod_get_entry (meanings, examples, pronunciation), corpus_search (a word/phrase in context), lb_spellcheck / lb_n_rule_check (quick checks).`;
 
 export const ABOUT = `# ZLS Lëtzebuergesch MCP server v${VERSION}
@@ -26,6 +28,7 @@ Resources used (all published by the Zenter fir d'Lëtzebuerger Sprooch):
 | Lëtzebuerger Online Dictionnaire (LOD) | live public API, https://lod.lu/api | CC0 |
 | Spellchecker dictionary | ${dictionarySource()} | EUPL-1.1 |
 | Méisproochegen Iwwersetzungskorpus fir d'Lëtzebuergescht | data.public.lu download, loaded locally | CC0 |
+| D’Lëtzebuerger Orthografie (CPLL/ZLS 2019, 6. Oplo 2024) | bundled machine-readable edition (resources/orthografie) | © Ministère fir Educatioun, Kanner a Jugend; published by ZLS/SCRIPT |
 
 The n-rule (Eifeler Regel) checker is heuristic; LOD's nRuleForm is used to confirm cases when available.\nGrammar checks (gender, auxiliary, dative, Germanisms) use LOD data plus the ZLS-maintained files resources/grammar-notes.md and resources/germanisms.tsv.
 No user text is stored. Spellchecking and corpus search run locally in the server; dictionary lookups send only the looked-up word to lod.lu.`;
@@ -41,6 +44,7 @@ export function createServer(opts: { lod?: LodClient } = {}): McpServer {
   registerSpellTools(server, lod);
   registerCorpusTools(server);
   registerDraftTools(server, lod);
+  registerOrthographyTools(server);
 
   server.registerResource(
     "about",

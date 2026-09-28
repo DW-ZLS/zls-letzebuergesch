@@ -2,6 +2,7 @@ import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
 import type { LodClient } from "../lod/client.js";
 import { germanisms } from "../grammar/resources.js";
+import { CHECKS, checkOrthography, ruleHintsForUnknownWord } from "../ortho/checks.js";
 import { checkNRule, type NRuleIssue } from "../spell/nrule.js";
 import { dictionarySource, getSpeller, isCorrect, spellcheck, type SpellIssue } from "../spell/speller.js";
 import { json, safe, text } from "./util.js";
@@ -40,7 +41,8 @@ function formatSpelling(src: string, issues: SpellIssue[], wordCount: number): s
   if (!issues.length) return [`Spelling: no unknown words (${wordCount} words checked).`];
   const L = [`Spelling: ${issues.length} unknown word(s) out of ${wordCount}:`];
   for (const i of issues) {
-    L.push(`- **${i.word}** (${lineCol(src, i.start)}) → ${i.suggestions.length ? i.suggestions.join(", ") : "no suggestion"}  ·  ${context(src, i.start, i.end)}`);
+    const hints = ruleHintsForUnknownWord(i.word, i.suggestions);
+    L.push(`- **${i.word}** (${lineCol(src, i.start)}) → ${i.suggestions.length ? i.suggestions.join(", ") : "no suggestion"}${hints.length ? ` — ${hints.map((h) => `${h.hint} (§${h.rule})`).join("; ")}` : ""}  ·  ${context(src, i.start, i.end)}`);
   }
   return L;
 }
@@ -51,7 +53,7 @@ function formatNRule(src: string, issues: NRuleIssue[]): string[] {
   for (const i of issues) {
     const arrow = i.direction === "drop-n" ? "drop the n" : "keep/add the n";
     L.push(
-      `- [${i.confidence}${i.lodConfirmed ? ", LOD-confirmed" : ""}] **${i.word}** ${i.nextWord} → **${i.suggestion}** ${i.nextWord} (${arrow}; ${i.reason}) (${lineCol(src, i.start)})`,
+      `- [${i.confidence}${i.lodConfirmed ? ", LOD-confirmed" : ""}] **${i.word}** ${i.nextWord} → **${i.suggestion}** ${i.nextWord} (${arrow}; ${i.reason}; §${i.rule}) (${lineCol(src, i.start)})`,
     );
   }
   return L;
@@ -70,6 +72,10 @@ export function registerSpellTools(server: McpServer, lod: LodClient) {
       inputSchema: {
         text: z.string().min(1).max(MAX_CHARS).describe("Luxembourgish text to check."),
         check_n_rule: z.boolean().default(true).describe("Also report n-rule (Eifeler Regel) hints."),
+        check_orthography: z
+          .boolean()
+          .default(true)
+          .describe("Also check official orthography rules: spacing before ! ? ; :, abbreviations, units, capitalisation of days/times, é/ë, ß, apostrophes, linking s, commas before datt/well/ob, quotes."),
         verify_with_lod: z
           .boolean()
           .default(false)
@@ -90,7 +96,7 @@ export function registerSpellTools(server: McpServer, lod: LodClient) {
         openWorldHint: false,
       },
     },
-    safe(async ({ text: src, check_n_rule, verify_with_lod, max_suggestions, ignore_words, skip_capitalized, format }) => {
+    safe(async ({ text: src, check_n_rule, check_orthography, verify_with_lod, max_suggestions, ignore_words, skip_capitalized, format }) => {
       const ignore = new Set(ignore_words.map((w) => w.toLowerCase()));
       const { issues, wordCount } = await spellcheck(src, {
         maxSuggestions: max_suggestions,
@@ -116,9 +122,14 @@ export function registerSpellTools(server: McpServer, lod: LodClient) {
           })
         ).filter((n) => !misspelled.has(n.start));
       }
-      if (format === "json") return json({ wordCount, spelling: issues, nRule: check_n_rule ? nrule : undefined, dictionary: dictionarySource() });
+      const ortho = check_orthography ? checkOrthography(src) : [];
+      if (format === "json") return json({ wordCount, spelling: issues.map((i) => ({ ...i, hints: ruleHintsForUnknownWord(i.word, i.suggestions) })), nRule: check_n_rule ? nrule : undefined, orthography: check_orthography ? ortho : undefined, dictionary: dictionarySource() });
       const out = [...formatSpelling(src, issues, wordCount)];
       if (check_n_rule) out.push("", ...formatNRule(src, nrule));
+      if (check_orthography) {
+        out.push("", ortho.length ? `Orthography (official rules): ${ortho.length} finding(s):` : "Orthography (official rules): no issues found.");
+        for (const o of ortho) out.push(`- [${o.confidence}] ${CHECKS[o.check]?.title ?? o.check}: “${o.text}” → “${o.suggestion}” — ${o.message} (§${o.rule}; ${lineCol(src, o.start)})`);
+      }
       out.push("", `Dictionary: ${dictionarySource()}.`);
       return text(out.join("\n"));
     }),
@@ -160,7 +171,7 @@ export function registerSpellTools(server: McpServer, lod: LodClient) {
         [
           ...formatNRule(src, issues),
           "",
-          "Rule: keep final -n before a vowel, n, d, t, z, h or a pause; drop it before other consonants. Numbers, acronyms and words starting with y are skipped because it depends on pronunciation.",
+          "Rule (D’Lëtzebuerger Orthografie §6): final -n stays before a vowel, d, h, n, t, z (as pronounced: numbers, letters, English/French words count by sound) and before any punctuation; it is dropped before other consonants. Nouns/adjectives not ending in -en keep their n (§6.1.2.2); optional before si/se/säin/seng/sech/sou (§6.2.1); names keep their n (§6.3). Full text: lb_orthography_rules(section=\"6\").",
         ].join("\n"),
       );
     }),

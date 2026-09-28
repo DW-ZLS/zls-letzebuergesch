@@ -118,6 +118,7 @@ export async function spellcheck(textIn: string, opts: SpellcheckOptions): Promi
     const w = t.text;
     if (opts.ignore.has(w.toLowerCase())) continue;
     if (opts.skipAcronyms && isAcronym(w)) continue;
+    if (w.length === 1) continue; // single letters: abbreviations (z. B.), letter names, enumerations
     if (opts.skipCapitalized && /^\p{Lu}/u.test(w) && !isSentenceStart(tokens, i)) {
       // proper names: only skip when not at sentence start (nouns are capitalised too, so this is opt-in)
       continue;

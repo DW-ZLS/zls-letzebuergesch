@@ -8,7 +8,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-function resourcesDir(): string {
+export function resourcesDir(): string {
   if (process.env.ZLS_RESOURCES_DIR) return process.env.ZLS_RESOURCES_DIR;
   // works from src/grammar (tests) and dist/grammar (build): both are two levels below the repo root
   return path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "..", "resources");
@@ -20,6 +20,13 @@ function read(name: string): string {
   } catch {
     return "";
   }
+}
+
+let digestCache: string | null = null;
+/** Condensed official orthography rules with § references (resources/orthografie-digest.md). */
+export function orthographyDigest(): string {
+  if (digestCache === null) digestCache = read("orthografie-digest.md").replace(/<!--[\s\S]*?-->/g, "").trim();
+  return digestCache;
 }
 
 let notesCache: string | null = null;
